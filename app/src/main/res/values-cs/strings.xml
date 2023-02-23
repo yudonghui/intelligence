@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Inteligentní asistent</string>
+	<string name="title_name">domovská stránka</string>
+	<string name="more">nastavit</string>
+	<string name="please_select">Prosím vyberte</string>
+	<string name="tips">Tipy</string>
+	<string name="model_davinci">Nejvýkonnější model GPT-3. Dokáže splnit jakýkoliv úkol, který ostatní modely dokážou splnit, obvykle s vyšší kvalitou, delším výstupem a lepší dodržováním příkazů. Podporuje také vkládání dokončení do textu.</string>
+	<string name="model_curie">Je dostatečně silný, jeho funkce není tak velká jako davinci, ale je rychlejší a levnější než davinci.</string>
+	<string name="model_babbage">Schopný dokončit jednoduché úkoly s vysokou rychlostí a nízkými náklady.</string>
+	<string name="model_ada">Schopný provádět velmi jednoduché úkoly, obvykle nejrychlejší model řady GPT-3, s nejnižšími náklady.</string>
+
+</resources>

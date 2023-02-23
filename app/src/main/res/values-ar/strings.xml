@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">مساعد ذكي</string>
+	<string name="title_name">الصفحة الرئيسية</string>
+	<string name="more">ضبط</string>
+	<string name="please_select">الرجاء اختيار</string>
+	<string name="tips">جديلة</string>
+	<string name="model_davinci">أقوى نموذج GPT-3 . يمكن أن تنجز أي نموذج آخر يمكن القيام به ، وعادة مع أعلى جودة ، أطول الانتاج وتحسين الامتثال التعليمات . وتؤيد أيضا إدراج تكملة في النص .</string>
+	<string name="model_curie">قوية بما فيه الكفاية ، وظيفة ليست كبيرة مثل دافنشي ، ولكن أسرع وأقل تكلفة من دافنشي .</string>
+	<string name="model_babbage">فائدة نموذج يمكن إكمال مهام بسيطة ، وسرعة عالية ومنخفضة التكلفة .</string>
+	<string name="model_ada">قادرة على أداء مهام بسيطة جدا ، وعادة ما تكون أسرع في سلسلة GPT-3 ، بأقل تكلفة .</string>
+
+</resources>

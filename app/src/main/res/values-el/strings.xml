@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Ευφυής βοηθός</string>
+	<string name="title_name">Αρχική σελίδα</string>
+	<string name="more">ρύθμιση</string>
+	<string name="please_select">Παρακαλώ επιλέξτε</string>
+	<string name="tips">Συμβουλές</string>
+	<string name="model_davinci">Το πιο ισχυρό μοντέλο GPT-3. Μπορεί να εκπληρώσει οποιαδήποτε εργασία μπορούν να επιτελέσουν άλλα μοντέλα, συνήθως με υψηλότερη ποιότητα, μεγαλύτερη απόδοση και καλύτερη συμμόρφωση εντολών. Υποστηρίζει επίσης την εισαγωγή ολοκλήρωσης στο κείμενο.</string>
+	<string name="model_curie">Είναι αρκετά ισχυρό, η λειτουργία του δεν είναι τόσο μεγάλη όσο το davinci, αλλά είναι γρηγορότερη και φθηνότερη από davinci.</string>
+	<string name="model_babbage">Ικανός να ολοκληρώσει απλές εργασίες με υψηλή ταχύτητα και χαμηλό κόστος.</string>
+	<string name="model_ada">Ικανός να εκτελέσει πολύ απλές εργασίες, συνήθως το ταχύτερο μοντέλο της σειράς με το χαμηλότερο κόστος.</string>
+
+</resources>

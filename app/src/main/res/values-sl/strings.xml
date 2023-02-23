@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Inteligentni pomočnik</string>
+	<string name="title_name">Domača stran</string>
+	<string name="more">nastavitev</string>
+	<string name="please_select">Prosim izberite</string>
+	<string name="tips">Nasveti</string>
+	<string name="model_davinci">Najmočnejši model GPT-3. Lahko opravi katero koli nalogo, ki jo lahko opravijo drugi modeli, običajno z višjo kakovostjo, daljšim izhodom in boljšo skladnostjo z ukazom. Podpira tudi vstavljanje dokončanja v besedilo.</string>
+	<string name="model_curie">Njegova funkcija ni tako velika kot davinci, vendar je hitrejša in cenejša od davinci.</string>
+	<string name="model_babbage">Sposoben opraviti preproste naloge z visoko hitrostjo in nizkimi stroški.</string>
+	<string name="model_ada">Sposoben opravljati zelo preproste naloge, običajno najhitrejši model v seriji GPT-3, z najnižjimi stroški.</string>
+
+</resources>

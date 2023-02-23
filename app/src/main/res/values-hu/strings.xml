@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Intelligens asszisztens</string>
+	<string name="title_name">honlap</string>
+	<string name="more">felállítás</string>
+	<string name="please_select">Válassza ki</string>
+	<string name="tips">Tippek</string>
+	<string name="model_davinci">A legerősebb GPT-3 modell. Minden olyan feladatot elvégezhet, amelyet más modellek el tudnak végezni, általában jobb minőségű, hosszabb kimenet és jobb parancsnoksági megfelelés mellett. Ezenkívül támogatja a kiegészítés beillesztését a szövegbe.</string>
+	<string name="model_curie">Elég erős, funkciója nem olyan nagy, mint Davinci, de gyorsabb és olcsóbb, mint Davinci.</string>
+	<string name="model_babbage">Képes elvégezni az egyszerű feladatokat nagy sebességgel és alacsony költséggel.</string>
+	<string name="model_ada">Képes elvégezni nagyon egyszerű feladatokat, általában a leggyorsabb modell a GPT-3 sorozatban, a legalacsonyabb költséggel.</string>
+
+</resources>

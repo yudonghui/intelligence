@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Умный помощник</string>
+	<string name="title_name">Главная страница</string>
+	<string name="more">Настройка</string>
+	<string name="please_select">Выберите</string>
+	<string name="tips">Подсказка</string>
+	<string name="model_davinci">Самая мощная модель GPT - 3. Можно выполнить любую задачу, которую могут выполнить другие модели, обычно с более высоким качеством, более длинным выходом и лучшим соблюдением инструкций. Также поддерживается включение дополнений в текст.</string>
+	<string name="model_curie">Достаточно мощный, функционал не большой для davinci, но быстрее, чем davinci, и дешевле.</string>
+	<string name="model_babbage">Способность выполнять простые задачи, скорость, низкая стоимость.</string>
+	<string name="model_ada">Способность выполнять очень простые задачи, как правило, самая быстрая модель в серии GPT - 3 и самая низкая стоимость.</string>
+
+</resources>

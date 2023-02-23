@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Asistent inteligent</string>
+	<string name="title_name">Pagina principală</string>
+	<string name="more">înființat</string>
+	<string name="please_select">Vă rugăm să selectați</string>
+	<string name="tips">Sfaturi</string>
+	<string name="model_davinci">Cel mai puternic model GPT-3. Acesta poate realiza orice sarcină pe care alte modele o pot realiza, de obicei cu o calitate superioară, ieșire mai lungă și o mai bună conformitate a comenzilor. De asemenea, suportă inserarea completării în text.</string>
+	<string name="model_curie">Funcția sa nu este la fel de mare ca Davinci, dar este mai rapidă și mai ieftină decât Davinci.</string>
+	<string name="model_babbage">Capabil de a finaliza sarcini simple cu viteză mare și costuri reduse.</string>
+	<string name="model_ada">Capabil să efectueze sarcini foarte simple, de obicei cel mai rapid model din seria GPT-3, cu cel mai mic cost.</string>
+
+</resources>

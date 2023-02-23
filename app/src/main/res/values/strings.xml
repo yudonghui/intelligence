@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ChatGPT助手</string>
+    <string name="title_name">首页</string>
+    <string name="more">设置</string>
+    <string name="please_select">请选择</string>
+    <string name="tips">提示</string>
+    <string name="model_davinci">最强大的GPT-3模型。可以完成其他模型可以完成的任何任务，通常具有更高的质量、更长的输出和更好的指令遵从性。还支持在文本中插入补全。</string>
+    <string name="model_curie">足够强大，功能没有davinci大，但比davinci更快，成本更低。</string>
+    <string name="model_babbage">能够完成简单的任务，速度快，成本低。</string>
+    <string name="model_ada">能够执行非常简单的任务，通常是GPT-3系列中速度最快的机型，并且成本最低。</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+</resources>

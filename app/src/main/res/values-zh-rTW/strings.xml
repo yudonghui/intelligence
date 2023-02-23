@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">智能助手</string>
+	<string name="title_name">首頁</string>
+	<string name="more">設定</string>
+	<string name="please_select">請選擇</string>
+	<string name="tips">提示</string>
+	<string name="model_davinci">最强大的GPT-3模型。 可以完成其他模型可以完成的任何任務，通常具有更高的質量、更長的輸出和更好的指令遵從性。 還支持在文字中插入補全。</string>
+	<string name="model_curie">足够强大，功能沒有davinci大，但比davinci更快，成本更低。</string>
+	<string name="model_babbage">能够完成簡單的任務，速度快，成本低。</string>
+	<string name="model_ada">能够執行非常簡單的任務，通常是GPT-3系列中速度最快的機型，並且成本最低。</string>
+
+</resources>

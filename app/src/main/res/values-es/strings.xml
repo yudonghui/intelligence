@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Asistente inteligente</string>
+	<string name="title_name">Página de inicio</string>
+	<string name="more">Configuración</string>
+	<string name="please_select">Por favor, elija</string>
+	<string name="tips">Consejos</string>
+	<string name="model_davinci">El modelo GPT - 3 más potente. Se puede completar cualquier tarea que otros modelos puedan hacer, generalmente con mayor calidad, salida más larga y mejor cumplimiento de instrucciones. También se admite la inserción de suplementos en el texto.</string>
+	<string name="model_curie">Lo suficientemente potente como para no ser tan potente como davinci, pero más rápido y más barato que davinci.</string>
+	<string name="model_babbage">Puede completar tareas simples, rápidas y de bajo costo.</string>
+	<string name="model_ada">Capaz de realizar tareas muy simples, suele ser el modelo más rápido de la serie GPT - 3 y tiene el menor costo.</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">ผู้ช่วยอัจฉริยะ</string>
+	<string name="title_name">หน้าหลัก</string>
+	<string name="more">การตั้งค่า</string>
+	<string name="please_select">กรุณาเลือก</string>
+	<string name="tips">เคล็ดลับ</string>
+	<string name="model_davinci">รุ่น GPT-3 ที่ทรงพลังที่สุด สามารถทำงานใด ๆ ที่รุ่นอื่น ๆ สามารถทำได้โดยปกติจะมีคุณภาพที่สูงขึ้นผลผลิตที่ยาวขึ้นและการปฏิบัติตามคำสั่งที่ดีขึ้น นอกจากนี้ยังสนับสนุนการแทรกการเติมเต็มในข้อความ</string>
+	<string name="model_curie">ทรงพลังมากพอที่ฟังก์ชั่นไม่ใหญ่พอ davinci แต่เร็วกว่า davinci และต้นทุนน้อยกว่า</string>
+	<string name="model_babbage">สามารถทำงานง่าย รวดเร็ว ต้นทุนต่ำ</string>
+	<string name="model_ada">ความสามารถในการทำงานที่ง่ายมากมักจะเป็นรุ่นที่เร็วที่สุดในชุด GPT-3 และค่าใช้จ่ายต่ำสุด</string>
+
+</resources>

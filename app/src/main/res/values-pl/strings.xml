@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Inteligentny asystent</string>
+	<string name="title_name">strona główna</string>
+	<string name="more">ustawić</string>
+	<string name="please_select">Proszę wybrać</string>
+	<string name="tips">Porady</string>
+	<string name="model_davinci">Najpotężniejszy model GPT-3. Może wykonać każde zadanie, które mogą wykonać inne modele, zwykle z wyższą jakością, dłuższą wydajnością i lepszą zgodnością z poleceniami. Obsługuje również wstawianie uzupełnienia w tekście.</string>
+	<string name="model_curie">Jest wystarczająco potężny. Jego funkcja nie jest tak duża jak davinci, ale jest szybsza i tańsza niż davinci.</string>
+	<string name="model_babbage">Zdolny do wykonywania prostych zadań z dużą prędkością i niskimi kosztami.</string>
+	<string name="model_ada">Potrafi wykonywać bardzo proste zadania, zwykle najszybszy model serii GPT-3, przy najniższych kosztach.</string>
+
+</resources>

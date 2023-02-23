@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Интелигентен асистент</string>
+	<string name="title_name">начална страница</string>
+	<string name="more">настройване</string>
+	<string name="please_select">Моля изберете</string>
+	<string name="tips">Съвети</string>
+	<string name="model_davinci">Най-мощният GPT-3 модел. Тя може да изпълни всяка задача, която други модели могат да изпълняват, обикновено с по-високо качество, по-дълъг изход и по-добро съответствие на командите. Той също така поддържа вмъкване на завършване в текст.</string>
+	<string name="model_curie">Функцията му не е толкова голяма, колкото Давинчи, но е по-бърза и евтина от Давинчи.</string>
+	<string name="model_babbage">Способни да изпълняват прости задачи с висока скорост и ниска цена.</string>
+	<string name="model_ada">Способен да изпълнява много прости задачи, обикновено най-бързият модел в серията с най-ниската цена.</string>
+
+</resources>

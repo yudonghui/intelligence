@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Intelligentne assistent</string>
+	<string name="title_name">Avaleht</string>
+	<string name="more">seadistada</string>
+	<string name="please_select">Palun vali</string>
+	<string name="tips">Näpunäited</string>
+	<string name="model_davinci">Võimsaim GPT-3 mudel. See suudab täita kõik ülesanded, mida teised mudelid suudavad täita, tavaliselt kõrgema kvaliteedi, pikema väljundi ja parema käskude vastavusega. See toetab ka lõpetamise lisamist tekstis.</string>
+	<string name="model_curie">See on piisavalt võimas. Selle funktsioon ei ole nii suur kui davinci, kuid see on kiirem ja odavam kui davinci.</string>
+	<string name="model_babbage">Võimalik täita lihtsaid ülesandeid kiire ja madala kuluga.</string>
+	<string name="model_ada">Võimeline täitma väga lihtsaid ülesandeid, tavaliselt kiireim mudel GPT-3 seeria, madalaima kuluga.</string>
+
+</resources>

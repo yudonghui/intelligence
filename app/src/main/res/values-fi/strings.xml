@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Älykäs avustaja</string>
+	<string name="title_name">Kotisivu</string>
+	<string name="more">perustaa</string>
+	<string name="please_select">Valitse</string>
+	<string name="tips">Vinkit</string>
+	<string name="model_davinci">Tehokkain GPT-3-malli. Se voi suorittaa minkä tahansa tehtävän, jonka muut mallit voivat suorittaa, yleensä korkeammalla laadulla, pitemmällä tuotoksella ja paremmalla komennon noudattamisella. Se tukee myös täydennyksen lisäämistä tekstiin.</string>
+	<string name="model_curie">Sen toiminta ei ole yhtä suuri kuin davinci, mutta se on nopeampi ja halvempi kuin davinci.</string>
+	<string name="model_babbage">Pystyy suorittamaan yksinkertaisia tehtäviä suurella nopeudella ja alhaisilla kustannuksilla.</string>
+	<string name="model_ada">Pystyy suorittamaan hyvin yksinkertaisia tehtäviä, yleensä nopein malli GPT-3 sarjassa, alhaisimmilla kustannuksilla.</string>
+
+</resources>

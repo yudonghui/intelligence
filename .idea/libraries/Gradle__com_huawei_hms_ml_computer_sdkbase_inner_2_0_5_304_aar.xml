@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:ml-computer-sdkbase-inner:2.0.5.304@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c43d51fa2b6c1ae3d6d74fc18bc9d0e8/jetified-ml-computer-sdkbase-inner-2.0.5.304/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c43d51fa2b6c1ae3d6d74fc18bc9d0e8/jetified-ml-computer-sdkbase-inner-2.0.5.304/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.huawei.hms/ml-computer-sdkbase-inner/2.0.5.304/da39a3ee5e6b4b0d3255bfef95601890afd80709/ml-computer-sdkbase-inner-2.0.5.304-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.huawei.hms/ml-computer-sdkbase-inner/2.0.5.304/da39a3ee5e6b4b0d3255bfef95601890afd80709/ml-computer-sdkbase-inner-2.0.5.304-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

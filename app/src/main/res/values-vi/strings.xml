@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Trợ lý thông minh</string>
+	<string name="title_name">Trang chủ</string>
+	<string name="more">Thiết lập</string>
+	<string name="please_select">Vui lòng chọn</string>
+	<string name="tips">Mẹo</string>
+	<string name="model_davinci">Mô hình GPT-3 mạnh nhất Bất kỳ nhiệm vụ nào có thể được thực hiện bởi các mô hình khác, thường có chất lượng cao hơn, đầu ra dài hơn và tuân thủ tốt hơn. Chèn bổ sung vào văn bản cũng được hỗ trợ.</string>
+	<string name="model_curie">Đủ mạnh để không lớn như davinci, nhưng nhanh hơn và ít tốn kém hơn davinci.</string>
+	<string name="model_babbage">Khả năng hoàn thành các nhiệm vụ đơn giản, nhanh chóng và chi phí thấp.</string>
+	<string name="model_ada">Khả năng thực hiện các nhiệm vụ rất đơn giản, thường là mô hình nhanh nhất trong dòng GPT-3 và chi phí thấp nhất.</string>
+
+</resources>

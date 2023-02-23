@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">インテリジェントアシスタント</string>
+	<string name="title_name">トップページ</string>
+	<string name="more">設定＃セッテイ＃</string>
+	<string name="please_select">選択してください</string>
+	<string name="tips">ヒント</string>
+	<string name="model_davinci">最も強力なGPT-3モデル。他のモデルが達成できるタスクは、通常はより高い品質、より長い出力、より良い命令へのコンプライアンスを実現することができます。テキストに補完を挿入することもサポートされています。</string>
+	<string name="model_curie">十分に強力で、機能はdavinciほどではありませんが、davinciよりも高速でコストがかかります。</string>
+	<string name="model_babbage">簡単なタスクを完了でき、高速で低コストです。</string>
+	<string name="model_ada">非常に簡単なタスクを実行することができ、通常はGPT-3シリーズの中で最も高速な機種であり、コストが最も低い。</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">지능형 지원</string>
+	<string name="title_name">첫 페이지</string>
+	<string name="more">설치</string>
+	<string name="please_select">선택하십시오.</string>
+	<string name="tips">힌트</string>
+	<string name="model_davinci">가장 강력한 GPT-3 모델다른 모델이 수행할 수 있는 모든 작업을 수행할 수 있으며, 일반적으로 더 높은 품질, 더 긴 출력 및 더 나은 명령 준수를 제공합니다.텍스트에 완성 삽입도 지원됩니다.</string>
+	<string name="model_curie">충분히 강력하며 davinci보다 기능은 크지 않지만 davinci보다 빠르고 비용은 낮습니다.</string>
+	<string name="model_babbage">빠른 속도와 저렴한 비용으로 간단한 작업을 수행할 수 있습니다.</string>
+	<string name="model_ada">매우 간단한 작업을 수행할 수 있으며 일반적으로 GPT-3 시리즈 중 가장 빠르고 비용이 적게 듭니다.</string>
+
+</resources>

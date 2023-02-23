@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Intelligente assistent</string>
+	<string name="title_name">startpagina</string>
+	<string name="more">ingesteld</string>
+	<string name="please_select">Selecteer</string>
+	<string name="tips">Tips</string>
+	<string name="model_davinci">Het krachtigste GPT-3 model. Het kan elke taak uitvoeren die andere modellen kunnen uitvoeren, meestal met hogere kwaliteit, langere uitvoer en betere commando compliance. Het ondersteunt ook het invoegen van voltooiing in tekst.</string>
+	<string name="model_curie">Het is krachtig genoeg, zijn functie is niet zo groot als davinci, maar het is sneller en goedkoper dan davinci.</string>
+	<string name="model_babbage">In staat om eenvoudige taken met hoge snelheid en lage kosten te voltooien.</string>
+	<string name="model_ada">In staat om zeer eenvoudige taken uit te voeren, meestal het snelste model in de GPT-3 serie, met de laagste kosten.</string>
+
+</resources>

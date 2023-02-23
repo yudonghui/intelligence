@@ -10,7 +10,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ec701c2-cdea-4fb1-bbee-75df0bd1d5f8" name="Default Changelist" comment="" />
+    <list default="true" id="0ec701c2-cdea-4fb1-bbee-75df0bd1d5f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -247,13 +249,29 @@
       <option name="presentableId" value="Default" />
       <updated>1675654135096</updated>
     </task>
+    <task id="LOCAL-00001" summary="ChatGPT智能对话">
+      <created>1677121913443</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677121913443</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ChatGPT智能对话" />
+    <option name="LAST_COMMIT_MESSAGE" value="ChatGPT智能对话" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2397" y="252" key="#PSD" timestamp="1676534276844">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2397" y="252" key="#PSD/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1676534276844" />
+    <state x="687" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1677122147090">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="687" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1677122147090" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1676625725809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -285,10 +303,10 @@
     </state>
     <state x="815" y="285" key="AndroidProcessChooserDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1677053622867" />
     <state x="2735" y="285" key="AndroidProcessChooserDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1676428910901" />
-    <state x="598" y="114" key="CommitChangelistDialog2" timestamp="1677120962760">
+    <state x="598" y="114" key="CommitChangelistDialog2" timestamp="1677121909946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1677120962760" />
+    <state x="598" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1677121909946" />
     <state width="429" height="466" key="DebuggerActiveHint" timestamp="1676605244602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -342,10 +360,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1676258614518" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1677120969733">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1677121915239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1677120969733" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1677121915239" />
     <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1677034516688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,9 +1,15 @@
 package com.ydh.intelligence;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
+import android.webkit.JsResult;
+import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ImageView;
@@ -75,9 +81,37 @@ public class TestActivity extends BaseActivity {
             }
 
         });
+        //解决html中的alert没有弹出来的问题
+        webView.setWebChromeClient(new WebChromeClient() {
+            @Override
+            public boolean onJsAlert(WebView view, String url, String message, JsResult result) {
+                final AlertDialog.Builder builder = new AlertDialog.Builder(view.getContext());
+
+                builder.setTitle("提示")
+                        .setMessage(message)
+                        .setPositiveButton("确定", null);
+
+                // 不需要绑定按键事件
+                // 屏蔽keycode等于84之类的按键
+                builder.setOnKeyListener(new DialogInterface.OnKeyListener() {
+                    public boolean onKey(DialogInterface dialog, int keyCode, KeyEvent event) {
+                        Log.v("onJsAlert", "keyCode==" + keyCode + "event=" + event);
+                        return true;
+                    }
+                });
+                // 禁止响应按back键的事件
+                builder.setCancelable(false);
+                AlertDialog dialog = builder.create();
+                dialog.show();
+                result.confirm();// 因为没有绑定事件，需要强行confirm,否则页面会变黑显示不了内容。
+                return true;
+            }
+        });
         // 载入内容
         //webView.loadUrl("https://yudonghui.github.io/pages/test.html");
-        webView.loadUrl("file:///android_asset/index.html");
+        //webView.loadUrl("file:///android_asset/index.html");
+        webView.loadUrl("file:///android_asset/vuetest.html");
+
     }
 
     public void couponGet(View view) {

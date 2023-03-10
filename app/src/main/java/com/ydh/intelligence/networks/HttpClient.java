@@ -36,8 +36,10 @@ public class HttpClient {
     public static String BD_URL = "https://wenxin.baidu.com";
     private static String BASE_URL_TB = "https://eco.taobao.com/";//
     private static String BASE_URL_JD = "https://api.jd.com/";//
+    private static String BASE_URL_SUPABASE = "https://iaoqbthyohbschdxnvya.supabase.co/";//
     private static ServersApi serversApiTb = null;
     private static ServersApi serversApiJd = null;
+    private static ServersApi serversApiSupabase = null;
     public static long timeOut = 30000;//连接超时,30秒
     public static long timeOutLong = 60000;//连接超时,60秒
     public static String JD_MATERIAL_FORM = "jd.union.open.goods.jingfen.query";//京粉精选商品查询接口
@@ -192,6 +194,44 @@ public class HttpClient {
                     .build().create(ServersApi.class);
         }
         return serversApiJd;
+    }
+    public static ServersApi getHttpSupabase() {
+
+        if (serversApiSupabase == null) {
+            HttpLoggingInterceptor loggingInterceptor = new HttpLoggingInterceptor(new HttpLoggingInterceptor.Logger() {
+                @Override
+                public void log(String message) {
+                    if (message.contains("trace-id")) {
+                        LogUtils.e("返回结果: " + message);
+                    }
+                    if (message.startsWith("{")) {
+                        // LogUtils.e("请求结果" + message);
+                        LogUtils.e("请求结果" + message);
+                    } else if (message.contains("-->") && message.contains("https://")) {
+                        LogUtils.e("请求接口" + message);
+                    } else if (message.contains("app_key")) {
+                        LogUtils.e("请求参数" + message.replace("&", "\n").replace("=", ":"));
+                    }
+                }
+            });
+            loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
+
+            //初始化请求头（满足ip变更后统一修改的需求）
+            OkHttpClient.Builder httpClientBuilder = new OkHttpClient.Builder();
+            //对所有请求添加请求头
+            OkHttpClient.Builder builder = httpClientBuilder.connectTimeout(timeOut, TimeUnit.MILLISECONDS)//连接超时,30秒
+                    .readTimeout(timeOut, TimeUnit.MILLISECONDS)//读取数据超时，30秒
+                    .addInterceptor(new RequestParamSupabaseInterceptor());//请求头添加上token
+            if (Constant.ISSUE) {
+                builder.addInterceptor(loggingInterceptor);
+            }
+            serversApiSupabase = new Retrofit.Builder()
+                    .client(httpClientBuilder.build())
+                    .addConverterFactory(GsonConverterFactory.create())
+                    .baseUrl(BASE_URL_SUPABASE)
+                    .build().create(ServersApi.class);
+        }
+        return serversApiSupabase;
     }
     public void post(String url, FormBody body, final YdhInterface mListener) {
         OkHttpClient client = new OkHttpClient();

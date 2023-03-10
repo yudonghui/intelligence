@@ -22,5 +22,4 @@ public class PicassoUtils {
                     .into(mImageView);
         }
     }
-
 }

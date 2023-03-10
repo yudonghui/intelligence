@@ -6,7 +6,9 @@ import com.ydh.intelligence.entitys.MaterialContentEntity;
 import com.ydh.intelligence.entitys.TaskIdEntity;
 import com.ydh.intelligence.entitys.TbCodeEntity;
 import com.ydh.intelligence.entitys.TbDetailEntity;
+import com.ydh.intelligence.entitys.UserEntity;
 
+import java.util.List;
 import java.util.Map;
 
 import okhttp3.RequestBody;
@@ -15,6 +17,8 @@ import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.FieldMap;
 import retrofit2.http.FormUrlEncoded;
+import retrofit2.http.GET;
+import retrofit2.http.PATCH;
 import retrofit2.http.POST;
 import retrofit2.http.Query;
 
@@ -70,4 +74,16 @@ public interface ServersApi {
     @FormUrlEncoded
     @POST("routerjson")
     Call<ResponseBody> getMaterailJd(@FieldMap Map<String, Object> paramsMap);
+
+    //查询用户信息
+    @GET("rest/v1/User?select=*")
+    Call<List<UserEntity>> getUserInfo(@Query("deviceId") String deviceId);
+
+    //添加用户信息
+    @POST("rest/v1/User?select=*")
+    Call<ResponseBody> insertUse(@Body RequestBody body);
+
+    //更新用户信息
+    @PATCH("rest/v1/User")
+    Call<ResponseBody> patchData(@Query("id") String id, @Body RequestBody body);
 }

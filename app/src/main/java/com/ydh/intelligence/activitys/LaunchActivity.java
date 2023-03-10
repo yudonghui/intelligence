@@ -3,6 +3,7 @@ package com.ydh.intelligence.activitys;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -37,6 +38,8 @@ public class LaunchActivity extends BaseActivity {
     RecyclerView recyclerView;
     @BindView(R.id.tv_device)
     TextView tvDevice;
+    @BindView(R.id.iv_head)
+    ImageView ivHead;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +48,7 @@ public class LaunchActivity extends BaseActivity {
         tvTitle = findViewById(R.id.tv_title);
         recyclerView = findViewById(R.id.recycler_view);
         unBind = ButterKnife.bind(this);
+        initData();
         int displayWidth = CommonUtil.getDisplayWidth(this);
         int dp40 = CommonUtil.dp2px(40);
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams((displayWidth - dp40) / 3, (displayWidth - dp40) / 3);
@@ -57,7 +61,7 @@ public class LaunchActivity extends BaseActivity {
         homeEntities.add(new HomeEntity(R.drawable.shape_theme_10, "优惠券", 6));
         homeEntities.add(new HomeEntity(R.drawable.shape_orange_10, "图片识别", 7));
         homeEntities.add(new HomeEntity(R.drawable.shape_red_10, "MPAndroidChart", 8));
-        homeEntities.add(new HomeEntity(R.drawable.shape_gray_dark_10, "实用工具", 100));
+        homeEntities.add(new HomeEntity(R.drawable.shape_gray_10, "实用工具", 100));
         CommonAdapter<HomeEntity> mAdapter = new CommonAdapter<HomeEntity>(mContext, R.layout.item_main, homeEntities) {
 
             @Override
@@ -109,6 +113,10 @@ public class LaunchActivity extends BaseActivity {
         }
     }
 
+    private void initData() {
+
+    }
+
     private void checkUpdate() {
         XUpdate.newBuild(this)
                 .updateUrl(Constant.UPDATE_URL)
@@ -140,6 +148,7 @@ public class LaunchActivity extends BaseActivity {
 
     @OnClick(R.id.tv_device)
     public void onViewClicked() {
-        startActivity(DeviceInfoActivity.class);
+        //startActivity(DeviceInfoActivity.class);
+        startActivity(UserActivity.class);
     }
 }

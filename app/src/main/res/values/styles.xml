@@ -36,7 +36,40 @@
         <item name="android:backgroundDimEnabled">true</item>
 
     </style>
+
     <style name="tablayout_text_14">
         <item name="android:textSize">14dp</item>
     </style>
+
+    <declare-styleable name="TitleBar">
+        <attr name="tb_background_color" format="color" />
+        <attr name="tb_title" format="string" />
+        <attr name="tb_title_color" format="color" />
+        <attr name="tb_right_color" format="color" />
+        <attr name="tb_right_image" format="reference" />
+        <attr name="tb_right_image_two" format="reference" />
+        <attr name="tb_right_text" format="string" />
+        <attr name="tb_right_text_two" format="string" />
+    </declare-styleable>
+    <!--仿ios底部弹框-->
+    <style name="ActionSheetDialogStyle" parent="@android:style/Theme.Dialog">
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <!--头像设置成圆形，自定义控件用到的style-->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
 </resources>

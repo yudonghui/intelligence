@@ -18,6 +18,7 @@ public class SPUtils {
     public static final String BD_TOKEN = "bdToken";//百度获取token接口
     public static final String DURATION = "duration";
     public static final String ORIENTATION = "orientation";
+    public static final String USER_ID = "user_id";
     //存储信息，除非卸载否则一直存在
     public static final String FILE_DATA = "file_data";
     public static final String IS_FIRST = "is_first"; //是否第一次打开

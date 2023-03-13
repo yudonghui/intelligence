@@ -10,14 +10,10 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.xuexiang.xupdate.XUpdate;
 import com.ydh.intelligence.R;
 import com.ydh.intelligence.SPUtils;
 import com.ydh.intelligence.TestActivity;
-import com.ydh.intelligence.common.Constant;
 import com.ydh.intelligence.common.SpaceItemDecoration;
-import com.ydh.intelligence.common.updateapp.CustomUpdateParser;
-import com.ydh.intelligence.common.updateapp.CustomUpdatePrompter;
 import com.ydh.intelligence.dialogs.AgreementDialog;
 import com.ydh.intelligence.entitys.HomeEntity;
 import com.ydh.intelligence.entitys.UserEntity;
@@ -172,11 +168,11 @@ public class LaunchActivity extends BaseActivity {
     }
 
     private void checkUpdate() {
-        XUpdate.newBuild(this)
+        /*XUpdate.newBuild(this)
                 .updateUrl(Constant.UPDATE_URL)
                 .updateParser(new CustomUpdateParser())
                 .updatePrompter(new CustomUpdatePrompter(this))
-                .update();
+                .update();*/
     }
 
     //对返回键进行监听

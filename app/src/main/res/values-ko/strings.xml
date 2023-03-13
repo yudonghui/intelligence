@@ -54,5 +54,7 @@
 	<string name="other">기타</string>
 	<string name="no_data">데이터 없음</string>
 	<string name="add_small_widget">어셈블리 추가</string>
+	<string name="dialog_message">핸드폰 화면을 자동화하려면 무장애 모드를 켜야 한다</string>
+	<string name="dialog_allow_not">다른 응용 프로그램에 플로팅 창을 표시할 수 있는지 여부</string>
 
 </resources>

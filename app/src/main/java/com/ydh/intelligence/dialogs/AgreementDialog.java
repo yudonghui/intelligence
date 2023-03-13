@@ -44,7 +44,7 @@ public class AgreementDialog {
         mTvNoAgree = (TextView) view.findViewById(R.id.tv_no_agree);
         mDialog.setCancelable(false);
         mDialog.setContentView(view);
-        SpannableString ssb = new SpannableString("您可以阅读完整版《AutoTool服务和隐私协议》,来了解详细信息。");
+        SpannableString ssb = new SpannableString(mContext.getString(R.string.agreement));
         ClickableSpan clickableSpan = new ClickableSpan() {
             @Override
             public void onClick(@NonNull View widget) {

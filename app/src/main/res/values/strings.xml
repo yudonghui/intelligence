@@ -58,6 +58,11 @@
     <string name="add_small_widget">添加小组件</string>
     <string name="dialog_message">自动化操作手机屏幕需要打开无障碍模式</string>
     <string name="dialog_allow_not">是否允许在其他应用上面显示悬浮窗</string>
+    <string name="agreement">您可以阅读完整版《AutoTool服务和隐私协议》,来了解详细信息。</string>
+    <string name="agreenment_title">用户协议与隐私政策</string>
+    <string name="agreenment_content">您需要同意隐私保护指引和服务许可协议才能使用智能助手，如果您不统一，很遗憾我们无法为你提供服务。</string>
+    <string name="agree">同意</string>
+    <string name="no_agree">不同意并退出</string>
 
 
 </resources>

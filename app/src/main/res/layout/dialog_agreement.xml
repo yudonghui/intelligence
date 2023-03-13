@@ -11,7 +11,7 @@
         android:gravity="center"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
-        android:text="用户协议与隐私政策"
+        android:text="@string/agreenment_title"
         android:textColor="@color/color_black"
         android:textSize="16sp" />
 
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="您需要同意隐私保护指引和服务许可协议才能使用智能助手，如果您不统一，很遗憾我们无法为你提供服务。"
+        android:text="@string/agreenment_content"
         android:textColor="@color/color_black"
         android:textSize="14sp" />
 
@@ -31,7 +31,7 @@
         android:paddingLeft="10dp"
         android:paddingTop="10dp"
         android:paddingRight="10dp"
-        android:text="您可以阅读完整版《券券淘服务和隐私协议》,来了解详细信息。"
+        android:text=""
         android:textColor="@color/color_black"
         android:textSize="14sp" />
 
@@ -46,7 +46,7 @@
         android:gravity="center"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
-        android:text="同意"
+        android:text="@string/agree"
         android:textColor="@color/color_white"
         android:textSize="14sp" />
 
@@ -62,7 +62,7 @@
         android:gravity="center"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
-        android:text="不同意并退出"
+        android:text="@string/no_agree"
         android:textColor="@color/color_theme"
         android:textSize="14sp" />
 </LinearLayout>

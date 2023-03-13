@@ -11,7 +11,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ec701c2-cdea-4fb1-bbee-75df0bd1d5f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/dialogs/AgreementDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/dialogs/AgreementDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_agreement.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_agreement.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-en/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-en/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-ja/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-ja/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-ko/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-ko/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-zh-rTW/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-zh-rTW/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +38,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="3bfb3652" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="SQRNW17626001919" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -68,30 +85,30 @@
   <component name="PropertiesComponent">
     <property name="AL_OverrideCheckBoxStatus" value="false" />
     <property name="AL_SupportedLanguageCheckStatus_ara" value="true" />
-    <property name="AL_SupportedLanguageCheckStatus_bul" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_bul" value="false" />
     <property name="AL_SupportedLanguageCheckStatus_cht" value="true" />
-    <property name="AL_SupportedLanguageCheckStatus_cs" value="true" />
-    <property name="AL_SupportedLanguageCheckStatus_dan" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_cs" value="false" />
+    <property name="AL_SupportedLanguageCheckStatus_dan" value="false" />
     <property name="AL_SupportedLanguageCheckStatus_de" value="true" />
-    <property name="AL_SupportedLanguageCheckStatus_el" value="true" />
-    <property name="AL_SupportedLanguageCheckStatus_en" value="true" />
-    <property name="AL_SupportedLanguageCheckStatus_est" value="true" />
-    <property name="AL_SupportedLanguageCheckStatus_fin" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_el" value="false" />
+    <property name="AL_SupportedLanguageCheckStatus_en" value="false" />
+    <property name="AL_SupportedLanguageCheckStatus_est" value="false" />
+    <property name="AL_SupportedLanguageCheckStatus_fin" value="false" />
     <property name="AL_SupportedLanguageCheckStatus_fra" value="true" />
-    <property name="AL_SupportedLanguageCheckStatus_hu" value="true" />
-    <property name="AL_SupportedLanguageCheckStatus_it" value="true" />
-    <property name="AL_SupportedLanguageCheckStatus_jp" value="true" />
-    <property name="AL_SupportedLanguageCheckStatus_kor" value="true" />
-    <property name="AL_SupportedLanguageCheckStatus_nl" value="true" />
-    <property name="AL_SupportedLanguageCheckStatus_pl" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_hu" value="false" />
+    <property name="AL_SupportedLanguageCheckStatus_it" value="false" />
+    <property name="AL_SupportedLanguageCheckStatus_jp" value="false" />
+    <property name="AL_SupportedLanguageCheckStatus_kor" value="false" />
+    <property name="AL_SupportedLanguageCheckStatus_nl" value="false" />
+    <property name="AL_SupportedLanguageCheckStatus_pl" value="false" />
     <property name="AL_SupportedLanguageCheckStatus_pt" value="true" />
-    <property name="AL_SupportedLanguageCheckStatus_rom" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_rom" value="false" />
     <property name="AL_SupportedLanguageCheckStatus_ru" value="true" />
-    <property name="AL_SupportedLanguageCheckStatus_slo" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_slo" value="false" />
     <property name="AL_SupportedLanguageCheckStatus_spa" value="true" />
-    <property name="AL_SupportedLanguageCheckStatus_swe" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_swe" value="false" />
     <property name="AL_SupportedLanguageCheckStatus_th" value="true" />
-    <property name="AL_SupportedLanguageCheckStatus_vie" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_vie" value="false" />
     <property name="AL_SupportedLanguageCheckStatus_zh" value="true" />
     <property name="ApkExportedModule" value="app" />
     <property name="BundleExportedModule" value="app" />
@@ -292,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678697169991</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="云数据库">
+      <created>1678697626447</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678697626447</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -331,19 +355,19 @@
     </state>
     <state x="581" y="478" key="AndroidCreateResourceFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678411958870" />
     <state x="2460" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1676278776777" />
-    <state x="813" y="331" key="AndroidCreateXmlResourceDialog" timestamp="1678691771892">
+    <state x="813" y="331" key="AndroidCreateXmlResourceDialog" timestamp="1678697844700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="813" y="331" key="AndroidCreateXmlResourceDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678691771892" />
+    <state x="813" y="331" key="AndroidCreateXmlResourceDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678697844700" />
     <state x="815" y="285" key="AndroidProcessChooserDialog" timestamp="1678675194204">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="815" y="285" key="AndroidProcessChooserDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678675194204" />
     <state x="2735" y="285" key="AndroidProcessChooserDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1676428910901" />
-    <state x="598" y="114" key="CommitChangelistDialog2" timestamp="1678697167199">
+    <state x="598" y="114" key="CommitChangelistDialog2" timestamp="1678697624759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678697167199" />
+    <state x="598" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678697624759" />
     <state width="463" height="466" key="DebuggerActiveHint" timestamp="1678675224336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -401,10 +425,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="468" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678691427224" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1678697593754">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1678697627802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678697593754" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678697627802" />
     <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1677034516688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

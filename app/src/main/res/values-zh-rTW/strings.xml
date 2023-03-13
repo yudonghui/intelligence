@@ -53,5 +53,9 @@
 	<string name="brand_coupons">品牌券</string>
 	<string name="other">其他</string>
 	<string name="no_data">暫無數據</string>
+	<string name="add_small_widget">添加小組件</string>
+	<string name="dialog_message">自動化操作手機荧幕需要打開無障礙模式</string>
+	<string name="dialog_allow_not">是否允許在其他應用上面顯示懸浮窗</string>
+	<string name="agreement">您可以閱讀完整版《AutoTool服務和隱私協議》，來瞭解詳細資訊。</string>
 
 </resources>

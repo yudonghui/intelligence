@@ -53,5 +53,8 @@
 	<string name="brand_coupons">Brand certificate</string>
 	<string name="other">other</string>
 	<string name="no_data">No data</string>
+	<string name="add_small_widget">Add widget</string>
+	<string name="dialog_message">The barrier-free mode needs to be turned on for automatic operation of mobile phone screen</string>
+	<string name="dialog_allow_not">Whether it is allowed to display floating windows on other applications</string>
 
 </resources>

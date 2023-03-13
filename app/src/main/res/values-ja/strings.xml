@@ -54,5 +54,7 @@
 	<string name="other">その他</string>
 	<string name="no_data">データが一時的にありません</string>
 	<string name="add_small_widget">ウィジェットの追加</string>
+	<string name="dialog_message">携帯電話の画面を自動操作するには、バリアフリーモードをオンにする必要があります</string>
+	<string name="dialog_allow_not">他のアプリケーションに浮遊窓を表示できるかどうか</string>
 
 </resources>

@@ -9,6 +9,7 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.Settings;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -116,10 +117,12 @@ public class UserActivity extends PermissionActivity {
                 if (response != null && response.body() != null && response.body().size() > 0) {
                     List<UserEntity> body = response.body();
                     userEntity = body.get(0);
-                    Bitmap bitmap = BitmapUtils.handleBase64ToBitmap(userEntity.getHeadUrl());
-                    ivHead.setImageBitmap(bitmap);
+                    if (!TextUtils.isEmpty(userEntity.getHeadUrl())) {
+                        Bitmap bitmap = BitmapUtils.handleBase64ToBitmap(userEntity.getHeadUrl());
+                        ivHead.setImageBitmap(bitmap);
+                    }
                 } else {
-                    toast("未获取到用户信息");
+                    toast(getString(R.string.hint_use_info));
                 }
             }
 
@@ -161,9 +164,9 @@ public class UserActivity extends PermissionActivity {
         if (builder1 == null) {
             builder1 = new AlertDialog.Builder(UserActivity.this)
                     .setCancelable(true)
-                    .setTitle("权限")
-                    .setMessage("需要读写权限才能拍照")
-                    .setNegativeButton("设置", new DialogInterface.OnClickListener() {
+                    .setTitle(getString(R.string.permissions))
+                    .setMessage(getString(R.string.permission_text))
+                    .setNegativeButton(getString(R.string.setting), new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {
                             Intent intent = new Intent();
@@ -228,7 +231,7 @@ public class UserActivity extends PermissionActivity {
                         String path = selectList.get(0).getCompressPath();
                         byte[] bytes = FileIOUtils.readFile2BytesByStream(path);
                         String stringFile = EncodeUtils.base64Encode2String(bytes);
-                        uploadUserInfo("data:image/jpeg;base64,"+stringFile);
+                        uploadUserInfo("data:image/jpeg;base64," + stringFile);
                     }
                     break;
             }

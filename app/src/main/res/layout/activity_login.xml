@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activitys.LoginActivity">
+
+    <com.ydh.intelligence.views.ClearEditText
+        android:id="@+id/account_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/bg_white_line_gray_below"
+        android:drawableLeft="@mipmap/account_icon_false"
+        android:drawablePadding="10dp"
+        android:hint="输入您的账号"
+        android:inputType="textVisiblePassword"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/color_theme"
+        android:textColorHint="@color/color_hint"
+        android:textCursorDrawable="@null"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/white" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/bg_white_t70_5below"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/password_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_white_line_gray_below"
+            android:drawableLeft="@mipmap/password_icon_false"
+            android:drawablePadding="10dp"
+            android:hint="输入您的密码"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/color_theme"
+            android:textColorHint="@color/color_hint"
+            android:textCursorDrawable="@null"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_password"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@mipmap/close_eye" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/shape_theme_20"
+        android:gravity="center"
+        android:text="登录"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tv_current_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/color_c5" />
+</LinearLayout>

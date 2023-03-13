@@ -17,5 +17,5 @@
         android:paddingTop="10dp"
         android:paddingRight="20dp"
         android:paddingBottom="10dp"
-        android:text="添加小组件" />
+        android:text="@string/add_small_widget" />
 </LinearLayout>

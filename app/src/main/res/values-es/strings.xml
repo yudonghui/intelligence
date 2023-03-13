@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">Asistente inteligente</string>
+	<string name="app_name">Asistente chatgpt</string>
 	<string name="title_name">Página de inicio</string>
 	<string name="more">Configuración</string>
 	<string name="please_select">Por favor, elija</string>
@@ -10,5 +10,48 @@
 	<string name="model_curie">Lo suficientemente potente como para no ser tan potente como davinci, pero más rápido y más barato que davinci.</string>
 	<string name="model_babbage">Puede completar tareas simples, rápidas y de bajo costo.</string>
 	<string name="model_ada">Capaz de realizar tareas muy simples, suele ser el modelo más rápido de la serie GPT - 3 y tiene el menor costo.</string>
+	<string name="setting">Configuración</string>
+	<string name="permissions">Permisos</string>
+	<string name="permission_text">Se necesitan permisos de lectura y escritura para tomar fotos</string>
+	<string name="appwidget_text">Example</string>
+	<string name="add_widget">Añadir widget</string>
+	<string name="home_title">Herramientas comunes</string>
+	<string name="home_title_my">El mío</string>
+	<string name="home_picture">Generar imágenes</string>
+	<string name="home_ChatGPT">Chatgpt</string>
+	<string name="home_small_widget">Pequeños componentes</string>
+	<string name="home_auto">Operación automatizada</string>
+	<string name="home_text_voice">Texto a voz</string>
+	<string name="home_coupons">Cupón</string>
+	<string name="home_picture_text">Reconocimiento de imágenes</string>
+	<string name="home_mpac">Mpandroidchart</string>
+	<string name="home_tool">Herramientas prácticas</string>
+	<string name="hint_use_info">No se obtuvo información del usuario</string>
+	<string name="hint_quite">Presiona de nuevo para salir</string>
+	<string name="hint_widget_added">Se han añadido componentes</string>
+	<string name="hint_input_content">Por favor, introduzca el contenido</string>
+	<string name="hint_quota_over">¡¡ se ha agotado la cuota!</string>
+	<string name="hint_no_search">No se han buscado resultados</string>
+	<string name="hint_submit_fail">Presentación fallida</string>
+	<string name="hint_config_fail">¡Obtener información de configuración anormal!</string>
+	<string name="hint_change">¡Por favor, cambie primero!</string>
+	<string name="hint_download_complete">Descarga completada</string>
+	<string name="btn_scroll">Deslizamiento</string>
+	<string name="btn_up_down">Arriba y abajo</string>
+	<string name="btn_left_right">Izquierda y derecha</string>
+	<string name="btn_review_gestures">Gestos compuestos</string>
+	<string name="hint_input_frequency">Por favor, introduzca la frecuencia de deslizamiento</string>
+	<string name="hint_permission_fail">Falló la autorización</string>
+	<string name="female_voice">Voz femenina</string>
+	<string name="male_voice">Voz masculina</string>
+	<string name="emotional_male_voice">Voz masculina emocional</string>
+	<string name="emotional_female_voice">Voz femenina emocional</string>
+	<string name="tao_bao">Taobao</string>
+	<string name="jing_dong">Jingdong</string>
+	<string name="large_coupons">Grandes cupones</string>
+	<string name="good_coupons_live">Transmisión en vivo de buenos cupones</string>
+	<string name="brand_coupons">Cupón de marca</string>
+	<string name="other">Otros</string>
+	<string name="no_data">No hay datos por el momento</string>
 
 </resources>

@@ -27,7 +27,7 @@ class SmallWidgetActivity : BaseActivity() {
         val componentName = ComponentName(mContext, widgetClass!!)
         val appWidgetIds = instance.getAppWidgetIds(componentName)
         if (appWidgetIds != null && appWidgetIds.isNotEmpty()) {
-            CommonUtil.showToast("组件已经添加过")
+            CommonUtil.showToast(getString(R.string.hint_widget_added))
             return
         }
         if (instance.isRequestPinAppWidgetSupported) {

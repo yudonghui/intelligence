@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">Trợ lý thông minh</string>
+	<string name="app_name">Trợ lý ChatGPT</string>
 	<string name="title_name">Trang chủ</string>
 	<string name="more">Thiết lập</string>
 	<string name="please_select">Vui lòng chọn</string>
@@ -10,5 +10,48 @@
 	<string name="model_curie">Đủ mạnh để không lớn như davinci, nhưng nhanh hơn và ít tốn kém hơn davinci.</string>
 	<string name="model_babbage">Khả năng hoàn thành các nhiệm vụ đơn giản, nhanh chóng và chi phí thấp.</string>
 	<string name="model_ada">Khả năng thực hiện các nhiệm vụ rất đơn giản, thường là mô hình nhanh nhất trong dòng GPT-3 và chi phí thấp nhất.</string>
+	<string name="setting">Thiết lập</string>
+	<string name="permissions">Quyền hạn</string>
+	<string name="permission_text">Cần quyền đọc và ghi để chụp ảnh</string>
+	<string name="appwidget_text">EXAMPLE</string>
+	<string name="add_widget">Add widget</string>
+	<string name="home_title">Công cụ thường dùng</string>
+	<string name="home_title_my">Của tôi</string>
+	<string name="home_picture">Tạo ảnh</string>
+	<string name="home_ChatGPT">ChatGPT</string>
+	<string name="home_small_widget">Thành phần nhỏ</string>
+	<string name="home_auto">Hoạt động tự động</string>
+	<string name="home_text_voice">Văn bản sang giọng nói</string>
+	<string name="home_coupons">Trang chủ</string>
+	<string name="home_picture_text">Nhận dạng hình ảnh</string>
+	<string name="home_mpac">MPAndroidChart</string>
+	<string name="home_tool">Tiện ích</string>
+	<string name="hint_use_info">Không lấy được thông tin người dùng</string>
+	<string name="hint_quite">Nhấn một lần nữa để thoát</string>
+	<string name="hint_widget_added">Các thành phần đã được thêm vào</string>
+	<string name="hint_input_content">Vui lòng nhập nội dung</string>
+	<string name="hint_quota_over">Hạn mức đã dùng hết!</string>
+	<string name="hint_no_search">Chưa tìm thấy kết quả</string>
+	<string name="hint_submit_fail">Gửi thất bại</string>
+	<string name="hint_config_fail">Nhận thông tin cấu hình ngoại lệ!</string>
+	<string name="hint_change">Vui lòng chuyển đổi trước!</string>
+	<string name="hint_download_complete">Tải xong</string>
+	<string name="btn_scroll">Trượt</string>
+	<string name="btn_up_down">Lên và xuống</string>
+	<string name="btn_left_right">Trái và phải</string>
+	<string name="btn_review_gestures">Cử chỉ tổng hợp</string>
+	<string name="hint_input_frequency">Vui lòng nhập tần số trượt</string>
+	<string name="hint_permission_fail">Lỗi ủy quyền</string>
+	<string name="female_voice">Giọng nữ</string>
+	<string name="male_voice">Giọng nam</string>
+	<string name="emotional_male_voice">Giọng nam cảm xúc</string>
+	<string name="emotional_female_voice">Giọng nữ cảm xúc</string>
+	<string name="tao_bao">Trang chủ</string>
+	<string name="jing_dong">Kinh Đông</string>
+	<string name="large_coupons">Phiếu giảm giá lớn</string>
+	<string name="good_coupons_live">Phát sóng trực tiếp.</string>
+	<string name="brand_coupons">Phiếu thương hiệu</string>
+	<string name="other">Khác</string>
+	<string name="no_data">Không có dữ liệu.</string>
 
 </resources>

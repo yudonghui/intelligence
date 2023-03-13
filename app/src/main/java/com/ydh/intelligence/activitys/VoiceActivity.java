@@ -153,15 +153,15 @@ public class VoiceActivity extends PermissionActivity {
         mVoiceList.add("13");
         mVoiceList.add("14");
         mSpeakerList = new ArrayList<>();
-        mSpeakerList.add("女声");
-        mSpeakerList.add("男声");
-        mSpeakerList.add("情感男声");
-        mSpeakerList.add("情感女声");
+        mSpeakerList.add(getString(R.string.female_voice));
+        mSpeakerList.add(getString(R.string.male_voice));
+        mSpeakerList.add(getString(R.string.emotional_male_voice));
+        mSpeakerList.add(getString(R.string.emotional_female_voice));
         mSpeakMap = new HashMap<>();
-        mSpeakMap.put("女声", "0");
-        mSpeakMap.put("男声", "1");
-        mSpeakMap.put("情感男声", "3");
-        mSpeakMap.put("情感女声", "4");
+        mSpeakMap.put(getString(R.string.female_voice), "0");
+        mSpeakMap.put(getString(R.string.male_voice), "1");
+        mSpeakMap.put(getString(R.string.emotional_male_voice), "3");
+        mSpeakMap.put(getString(R.string.emotional_female_voice), "4");
     }
 
     @OnClick({R.id.iv_return, R.id.tv_speed, R.id.tv_intonation, R.id.tv_voice, R.id.tv_speaker, R.id.tv_change, R.id.tv_download})
@@ -208,11 +208,12 @@ public class VoiceActivity extends PermissionActivity {
                 break;
             case R.id.tv_download:
                 if (TextUtils.isEmpty(voiceResult)) {
-                    Toast.makeText(mContext, "请先转换！", Toast.LENGTH_SHORT).show();
+                    toast(getString(R.string.hint_change));
                     return;
                 }
                 Base64Utils.decoderCachBase64File(voiceResult, Environment.getExternalStorageDirectory().getAbsolutePath() + "/" + System.currentTimeMillis() + ".mp3");
-                Toast.makeText(mContext, "下载完成", Toast.LENGTH_SHORT).show();
+                Toast.makeText(mContext, R.string.hint_download_complete, Toast.LENGTH_SHORT).show();
+                toast(getString(R.string.hint_change));
                 break;
         }
     }
@@ -220,7 +221,7 @@ public class VoiceActivity extends PermissionActivity {
     private void change() {
         String text = mEtContent.getText().toString();
         if (TextUtils.isEmpty(text)) {
-            Toast.makeText(mContext, "请输入内容", Toast.LENGTH_SHORT).show();
+            Toast.makeText(mContext, getString(R.string.hint_input_content), Toast.LENGTH_SHORT).show();
             return;
         }
         HashMap<String, String> map = new HashMap<>();

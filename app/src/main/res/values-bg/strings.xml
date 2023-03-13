@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">Интелигентен асистент</string>
+	<string name="app_name">ChatGPT асистент</string>
 	<string name="title_name">начална страница</string>
 	<string name="more">настройване</string>
 	<string name="please_select">Моля изберете</string>
@@ -10,5 +10,48 @@
 	<string name="model_curie">Функцията му не е толкова голяма, колкото Давинчи, но е по-бърза и евтина от Давинчи.</string>
 	<string name="model_babbage">Способни да изпълняват прости задачи с висока скорост и ниска цена.</string>
 	<string name="model_ada">Способен да изпълнява много прости задачи, обикновено най-бързият модел в серията с най-ниската цена.</string>
+	<string name="setting">настройване</string>
+	<string name="permissions">юрисдикция</string>
+	<string name="permission_text">Имате нужда от разрешение за четене и писане, за да правите снимки</string>
+	<string name="appwidget_text">ПРИМЕР</string>
+	<string name="add_widget">Добавяне на джаджа</string>
+	<string name="home_title">Общи инструменти</string>
+	<string name="home_title_my">моя</string>
+	<string name="home_picture">Генериране на снимки</string>
+	<string name="home_ChatGPT">ChatGPT</string>
+	<string name="home_small_widget">Джаджия</string>
+	<string name="home_auto">Автоматична работа</string>
+	<string name="home_text_voice">Текст към глас</string>
+	<string name="home_coupons">купон</string>
+	<string name="home_picture_text">Разпознаване на картини</string>
+	<string name="home_mpac">MPAndroidChart</string>
+	<string name="home_tool">Инструменти</string>
+	<string name="hint_use_info">Не е получена информация за потребителя</string>
+	<string name="hint_quite">Натиснете отново, за да напуснете</string>
+	<string name="hint_widget_added">Добавен е компонент</string>
+	<string name="hint_input_content">Моля въведете съдържание</string>
+	<string name="hint_quota_over">Лимитът е изчерпан!</string>
+	<string name="hint_no_search">Няма намерени резултати</string>
+	<string name="hint_submit_fail">Подаването е неуспешно</string>
+	<string name="hint_config_fail">Изключение при получаване на конфигурационна информация!</string>
+	<string name="hint_change">Моля те, преобрази се първо!</string>
+	<string name="hint_download_complete">Изтеглянето завърши</string>
+	<string name="btn_scroll">плъзгане</string>
+	<string name="btn_up_down">Нагоре и надолу</string>
+	<string name="btn_left_right">около</string>
+	<string name="btn_review_gestures">Съставен жест</string>
+	<string name="hint_input_frequency">Моля въведете плъзгащата честота</string>
+	<string name="hint_permission_fail">Неуспешно предоставяне на привилегии</string>
+	<string name="female_voice">Женски глас</string>
+	<string name="male_voice">Мъжки глас</string>
+	<string name="emotional_male_voice">Емоционален мъжки глас</string>
+	<string name="emotional_female_voice">Емоционален женски глас</string>
+	<string name="tao_bao">TaoBao</string>
+	<string name="jing_dong">JD.COM</string>
+	<string name="large_coupons">Голям размер ценни книжа</string>
+	<string name="good_coupons_live">Излъчване на живо на добри купони</string>
+	<string name="brand_coupons">Сертификат за марка</string>
+	<string name="other">други</string>
+	<string name="no_data">Няма данни</string>
 
 </resources>

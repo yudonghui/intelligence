@@ -1,14 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">AiAssistant</string>
+	<string name="app_name">ChatGPT Assistant</string>
 	<string name="title_name">home page</string>
 	<string name="more">set up</string>
 	<string name="please_select">Please select</string>
 	<string name="tips">Tips</string>
-	<string name="model_davinci">Most capable GPT-3 model. Can do any task the other models can do, often with higher quality, longer output and better instruction-following. Also supports inserting completions within text.</string>
-	<string name="model_curie">Very capable, but faster and lower cost than Davinci.</string>
-	<string name="model_babbage">Capable of straightforward tasks, very fast, and lower cost.</string>
-	<string name="model_ada">Capable of very simple tasks, usually the fastest model in the GPT-3 series, and lowest cost.</string>
+	<string name="model_davinci">The most powerful GPT-3 model. It can accomplish any task that other models can accomplish, usually with higher quality, longer output and better command compliance. It also supports inserting completion in text.</string>
+	<string name="model_curie">It is powerful enough. Its function is not as big as davinci, but it is faster and cheaper than davinci.</string>
+	<string name="model_babbage">Able to complete simple tasks with high speed and low cost.</string>
+	<string name="model_ada">Able to perform very simple tasks, usually the fastest model in the GPT-3 series, with the lowest cost.</string>
+	<string name="setting">set up</string>
+	<string name="permissions">jurisdiction</string>
+	<string name="permission_text">You need read and write permission to take pictures</string>
+	<string name="appwidget_text">EXAMPLE</string>
+	<string name="add_widget">Add widget</string>
+	<string name="home_title">Common tools</string>
+	<string name="home_title_my">my</string>
+	<string name="home_picture">Generate pictures</string>
+	<string name="home_ChatGPT">ChatGPT</string>
+	<string name="home_small_widget">Widget</string>
+	<string name="home_auto">Automatic operation</string>
+	<string name="home_text_voice">Text to voice</string>
+	<string name="home_coupons">coupon</string>
+	<string name="home_picture_text">Picture recognition</string>
+	<string name="home_mpac">MPAndroidChart</string>
+	<string name="home_tool">Utilities</string>
+	<string name="hint_use_info">No user information obtained</string>
+	<string name="hint_quite">Press again to leave</string>
+	<string name="hint_widget_added">Component has been added</string>
+	<string name="hint_input_content">Please enter content</string>
+	<string name="hint_quota_over">The limit has been used up!</string>
+	<string name="hint_no_search">No results found</string>
+	<string name="hint_submit_fail">Submission failed</string>
+	<string name="hint_config_fail">Exception in getting configuration information!</string>
+	<string name="hint_change">Please convert first!</string>
+	<string name="hint_download_complete">Download complete</string>
+	<string name="btn_scroll">slide</string>
+	<string name="btn_up_down">Up and down</string>
+	<string name="btn_left_right">about</string>
+	<string name="btn_review_gestures">Composite gesture</string>
+	<string name="hint_input_frequency">Please enter the sliding frequency</string>
+	<string name="hint_permission_fail">privilege grant failed</string>
+	<string name="female_voice">Female voice</string>
+	<string name="male_voice">Male voice</string>
+	<string name="emotional_male_voice">Emotional male voice</string>
+	<string name="emotional_female_voice">Emotional female voice</string>
+	<string name="tao_bao">TaoBao</string>
+	<string name="jing_dong">JD.COM</string>
+	<string name="large_coupons">Large amount of securities</string>
+	<string name="good_coupons_live">Live broadcast of good coupons</string>
+	<string name="brand_coupons">Brand certificate</string>
+	<string name="other">other</string>
+	<string name="no_data">No data</string>
 
 </resources>

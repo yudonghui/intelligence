@@ -8,7 +8,54 @@
     <string name="model_curie">足够强大，功能没有davinci大，但比davinci更快，成本更低。</string>
     <string name="model_babbage">能够完成简单的任务，速度快，成本低。</string>
     <string name="model_ada">能够执行非常简单的任务，通常是GPT-3系列中速度最快的机型，并且成本最低。</string>
+    <string name="setting">设置</string>
+    <string name="permissions">权限</string>
+    <string name="permission_text">需要读写权限才能拍照</string>
     <string name="appwidget_text">EXAMPLE</string>
     <string name="add_widget">Add widget</string>
+    <string name="home_title">常用工具</string>
+    <string name="home_title_my">我的</string>
+    <string name="home_picture">生成图片</string>
+    <string name="home_ChatGPT">ChatGPT</string>
+    <string name="home_small_widget">小组件</string>
+    <string name="home_auto">自动化操作</string>
+    <string name="home_text_voice">文本转语音</string>
+    <string name="home_coupons">优惠券</string>
+    <string name="home_picture_text">图片识别</string>
+    <string name="home_mpac">MPAndroidChart</string>
+    <string name="home_tool">实用工具</string>
+
+
+    <string name="hint_use_info">未获取到用户信息</string>
+    <string name="hint_quite">再按一次离开</string>
+    <string name="hint_widget_added">组件已经添加过</string>
+    <string name="hint_input_content">请输入内容</string>
+    <string name="hint_quota_over">额度已用完！</string>
+    <string name="hint_no_search">未搜索到结果</string>
+    <string name="hint_submit_fail">提交失败</string>
+    <string name="hint_config_fail">获取配置信息异常！</string>
+    <string name="hint_change">请先转换！</string>
+    <string name="hint_download_complete">下载完成</string>
+
+
+    <string name="btn_scroll">滑动</string>
+    <string name="btn_up_down">上下</string>
+    <string name="btn_left_right">左右</string>
+    <string name="btn_review_gestures">复合手势</string>
+    <string name="hint_input_frequency">请输入滑动频率</string>
+    <string name="hint_permission_fail">授权失败</string>
+    <string name="female_voice">女声</string>
+    <string name="male_voice">男声</string>
+    <string name="emotional_male_voice">情感男声</string>
+    <string name="emotional_female_voice">情感女声</string>
+    <string name="tao_bao">淘宝</string>
+    <string name="jing_dong">京东</string>
+    <string name="large_coupons">大额券</string>
+    <string name="good_coupons_live">好券直播</string>
+    <string name="brand_coupons">品牌券</string>
+    <string name="other">其他</string>
+    <string name="no_data">暂无数据</string>
+    <string name="add_small_widget">添加小组件</string>
+
 
 </resources>

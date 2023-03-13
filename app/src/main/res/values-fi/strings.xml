@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">Älykäs avustaja</string>
+	<string name="app_name">ChatGPT-apuri</string>
 	<string name="title_name">Kotisivu</string>
 	<string name="more">perustaa</string>
 	<string name="please_select">Valitse</string>
@@ -10,5 +10,48 @@
 	<string name="model_curie">Sen toiminta ei ole yhtä suuri kuin davinci, mutta se on nopeampi ja halvempi kuin davinci.</string>
 	<string name="model_babbage">Pystyy suorittamaan yksinkertaisia tehtäviä suurella nopeudella ja alhaisilla kustannuksilla.</string>
 	<string name="model_ada">Pystyy suorittamaan hyvin yksinkertaisia tehtäviä, yleensä nopein malli GPT-3 sarjassa, alhaisimmilla kustannuksilla.</string>
+	<string name="setting">perustaa</string>
+	<string name="permissions">toimivalta</string>
+	<string name="permission_text">Tarvitset luku- ja kirjoitusluvan kuvien ottamiseen</string>
+	<string name="appwidget_text">ESIMERKKI</string>
+	<string name="add_widget">Lisää elementti</string>
+	<string name="home_title">Yhteiset välineet</string>
+	<string name="home_title_my">my</string>
+	<string name="home_picture">Luo kuvia</string>
+	<string name="home_ChatGPT">ChatGPT</string>
+	<string name="home_small_widget">Widget</string>
+	<string name="home_auto">Automaattinen toiminta</string>
+	<string name="home_text_voice">Teksti ääneen</string>
+	<string name="home_coupons">kuponki</string>
+	<string name="home_picture_text">Kuvantunnistus</string>
+	<string name="home_mpac">MPAndroidChart</string>
+	<string name="home_tool">Julkiset palvelut</string>
+	<string name="hint_use_info">Käyttäjätietoja ei saatu</string>
+	<string name="hint_quite">Paina uudelleen poistuaksesi</string>
+	<string name="hint_widget_added">Komponentti on lisätty</string>
+	<string name="hint_input_content">Anna sisältö</string>
+	<string name="hint_quota_over">Raja on käytetty loppuun!</string>
+	<string name="hint_no_search">Tuloksia ei löytynyt</string>
+	<string name="hint_submit_fail">Lähetys epäonnistui</string>
+	<string name="hint_config_fail">Poikkeus asetustietojen saamisessa!</string>
+	<string name="hint_change">Kääntykää ensin!</string>
+	<string name="hint_download_complete">Lataa valmis</string>
+	<string name="btn_scroll">liuku</string>
+	<string name="btn_up_down">Ylös ja alas</string>
+	<string name="btn_left_right">noin</string>
+	<string name="btn_review_gestures">Yhdistetty ele</string>
+	<string name="hint_input_frequency">Anna liukutaajuus</string>
+	<string name="hint_permission_fail">etuoikeuden myöntäminen epäonnistui</string>
+	<string name="female_voice">Naisen ääni</string>
+	<string name="male_voice">Miehen ääni</string>
+	<string name="emotional_male_voice">Tunteellinen miesääni</string>
+	<string name="emotional_female_voice">Emotionaalinen naisääni</string>
+	<string name="tao_bao">TaoBao</string>
+	<string name="jing_dong">JD.COM</string>
+	<string name="large_coupons">Suuri määrä arvopapereita</string>
+	<string name="good_coupons_live">Hyvien kuponkien suora lähetys</string>
+	<string name="brand_coupons">Merkkitodistus</string>
+	<string name="other">muut</string>
+	<string name="no_data">Ei tietoja</string>
 
 </resources>

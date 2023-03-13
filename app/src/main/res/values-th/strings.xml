@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">ผู้ช่วยอัจฉริยะ</string>
+	<string name="app_name">ผู้ช่วย ChatGPT</string>
 	<string name="title_name">หน้าหลัก</string>
 	<string name="more">การตั้งค่า</string>
 	<string name="please_select">กรุณาเลือก</string>
@@ -10,5 +10,48 @@
 	<string name="model_curie">ทรงพลังมากพอที่ฟังก์ชั่นไม่ใหญ่พอ davinci แต่เร็วกว่า davinci และต้นทุนน้อยกว่า</string>
 	<string name="model_babbage">สามารถทำงานง่าย รวดเร็ว ต้นทุนต่ำ</string>
 	<string name="model_ada">ความสามารถในการทำงานที่ง่ายมากมักจะเป็นรุ่นที่เร็วที่สุดในชุด GPT-3 และค่าใช้จ่ายต่ำสุด</string>
+	<string name="setting">การตั้งค่า</string>
+	<string name="permissions">การอนุญาต</string>
+	<string name="permission_text">ต้องใช้สิทธิ์อ่านและเขียนในการถ่ายภาพ</string>
+	<string name="appwidget_text">EXAMPLE</string>
+	<string name="add_widget">Add widget</string>
+	<string name="home_title">เครื่องมือทั่วไป</string>
+	<string name="home_title_my">ของฉัน</string>
+	<string name="home_picture">สร้างภาพ</string>
+	<string name="home_ChatGPT">ChatGPT</string>
+	<string name="home_small_widget">ส่วนประกอบขนาดเล็ก</string>
+	<string name="home_auto">การทำงานอัตโนมัติ</string>
+	<string name="home_text_voice">ข้อความเป็นเสียง</string>
+	<string name="home_coupons">คูปอง</string>
+	<string name="home_picture_text">การจดจำภาพ</string>
+	<string name="home_mpac">MPAndroidChart</string>
+	<string name="home_tool">เครื่องมืออรรถประโยชน์</string>
+	<string name="hint_use_info">ไม่ได้รับข้อมูลผู้ใช้</string>
+	<string name="hint_quite">กดอีกครั้งเพื่อออก</string>
+	<string name="hint_widget_added">มีการเพิ่มส่วนประกอบ</string>
+	<string name="hint_input_content">โปรดป้อนเนื้อหา</string>
+	<string name="hint_quota_over">วงเงินหมดแล้ว!</string>
+	<string name="hint_no_search">ไม่พบผลลัพธ์</string>
+	<string name="hint_submit_fail">การส่งล้มเหลว</string>
+	<string name="hint_config_fail">รับข้อมูลการกำหนดค่าผิดปกติ</string>
+	<string name="hint_change">กรุณาแปลงก่อน!</string>
+	<string name="hint_download_complete">ดาวน์โหลดเสร็จสมบูรณ์</string>
+	<string name="btn_scroll">เลื่อน</string>
+	<string name="btn_up_down">ขึ้นและลง</string>
+	<string name="btn_left_right">ซ้ายและขวา</string>
+	<string name="btn_review_gestures">ท่าทางคอมโพสิต</string>
+	<string name="hint_input_frequency">โปรดป้อนความถี่การเลื่อน</string>
+	<string name="hint_permission_fail">การอนุญาตล้มเหลว</string>
+	<string name="female_voice">เสียงผู้หญิง</string>
+	<string name="male_voice">เสียงผู้ชาย</string>
+	<string name="emotional_male_voice">อารมณ์ชาย</string>
+	<string name="emotional_female_voice">สาวอารมณ์</string>
+	<string name="tao_bao">เถาเป่า</string>
+	<string name="jing_dong">จิงตง</string>
+	<string name="large_coupons">คูปองขนาดใหญ่</string>
+	<string name="good_coupons_live">คูปองที่ดี Live</string>
+	<string name="brand_coupons">คูปองแบรนด์</string>
+	<string name="other">อื่นๆ</string>
+	<string name="no_data">ไม่มีข้อมูลในขณะนี้</string>
 
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">Intelligentne assistent</string>
+	<string name="app_name">ChatGPT assistent</string>
 	<string name="title_name">Avaleht</string>
 	<string name="more">seadistada</string>
 	<string name="please_select">Palun vali</string>
@@ -10,5 +10,48 @@
 	<string name="model_curie">See on piisavalt võimas. Selle funktsioon ei ole nii suur kui davinci, kuid see on kiirem ja odavam kui davinci.</string>
 	<string name="model_babbage">Võimalik täita lihtsaid ülesandeid kiire ja madala kuluga.</string>
 	<string name="model_ada">Võimeline täitma väga lihtsaid ülesandeid, tavaliselt kiireim mudel GPT-3 seeria, madalaima kuluga.</string>
+	<string name="setting">seadistada</string>
+	<string name="permissions">jurisdiktsioon</string>
+	<string name="permission_text">Pildistamiseks on vaja lugemis- ja kirjutamisluba</string>
+	<string name="appwidget_text">NÄIDE</string>
+	<string name="add_widget">Lisa vidin</string>
+	<string name="home_title">Ühised vahendid</string>
+	<string name="home_title_my">mu</string>
+	<string name="home_picture">Piltide genereerimine</string>
+	<string name="home_ChatGPT">ChatGPT</string>
+	<string name="home_small_widget">Vidin</string>
+	<string name="home_auto">Automaatne töö</string>
+	<string name="home_text_voice">Tekst häälele</string>
+	<string name="home_coupons">kupong</string>
+	<string name="home_picture_text">Pildituvastus</string>
+	<string name="home_mpac">MPAndroidChart</string>
+	<string name="home_tool">Kommunaalteenused</string>
+	<string name="hint_use_info">Kasutajateavet ei saadud</string>
+	<string name="hint_quite">Vajuta uuesti lahkumiseks</string>
+	<string name="hint_widget_added">Komponent on lisatud</string>
+	<string name="hint_input_content">Palun sisesta sisu</string>
+	<string name="hint_quota_over">Piir on ära kasutatud!</string>
+	<string name="hint_no_search">Tulemusi ei leitud</string>
+	<string name="hint_submit_fail">Esitamine nurjus</string>
+	<string name="hint_config_fail">Erand seadistusteabe hankimisel!</string>
+	<string name="hint_change">Palun pöördu esimesena!</string>
+	<string name="hint_download_complete">Allalaadimine lõpetatud</string>
+	<string name="btn_scroll">slaid</string>
+	<string name="btn_up_down">Üles ja alla</string>
+	<string name="btn_left_right">umbes</string>
+	<string name="btn_review_gestures">Kombineeritud žest</string>
+	<string name="hint_input_frequency">Palun sisesta libisemissagedus</string>
+	<string name="hint_permission_fail">privileegide andmine nurjus</string>
+	<string name="female_voice">Naiste hääl</string>
+	<string name="male_voice">Meeste hääl</string>
+	<string name="emotional_male_voice">Emotsionaalne meeste hääl</string>
+	<string name="emotional_female_voice">Emotsionaalne naishääl</string>
+	<string name="tao_bao">TaoBao</string>
+	<string name="jing_dong">JD.COM</string>
+	<string name="large_coupons">Suur väärtpaberite summa</string>
+	<string name="good_coupons_live">Heade kupongide otseülekanne</string>
+	<string name="brand_coupons">Kaubamärgi sertifikaat</string>
+	<string name="other">muud</string>
+	<string name="no_data">Andmed puuduvad</string>
 
 </resources>

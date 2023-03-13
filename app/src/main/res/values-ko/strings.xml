@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">지능형 지원</string>
+	<string name="app_name">ChatGPT 지원</string>
 	<string name="title_name">첫 페이지</string>
 	<string name="more">설치</string>
 	<string name="please_select">선택하십시오.</string>
@@ -10,5 +10,48 @@
 	<string name="model_curie">충분히 강력하며 davinci보다 기능은 크지 않지만 davinci보다 빠르고 비용은 낮습니다.</string>
 	<string name="model_babbage">빠른 속도와 저렴한 비용으로 간단한 작업을 수행할 수 있습니다.</string>
 	<string name="model_ada">매우 간단한 작업을 수행할 수 있으며 일반적으로 GPT-3 시리즈 중 가장 빠르고 비용이 적게 듭니다.</string>
+	<string name="setting">설치</string>
+	<string name="permissions">권한</string>
+	<string name="permission_text">사진을 찍으려면 읽기 및 쓰기 권한이 필요합니다.</string>
+	<string name="appwidget_text">EXAMPLE</string>
+	<string name="add_widget">Add widget</string>
+	<string name="home_title">일반 도구</string>
+	<string name="home_title_my">나의</string>
+	<string name="home_picture">그림 생성</string>
+	<string name="home_ChatGPT">ChatGPT</string>
+	<string name="home_small_widget">작은 어셈블리</string>
+	<string name="home_auto">자동화된 운영</string>
+	<string name="home_text_voice">텍스트 음성 변환</string>
+	<string name="home_coupons">쿠폰</string>
+	<string name="home_picture_text">그림 인식</string>
+	<string name="home_mpac">MPAndroidChart</string>
+	<string name="home_tool">유틸리티</string>
+	<string name="hint_use_info">사용자 정보를 가져오지 못했습니다.</string>
+	<string name="hint_quite">다시 한 번 눌러 떠나기</string>
+	<string name="hint_widget_added">구성 요소가 추가되었습니다.</string>
+	<string name="hint_input_content">내용을 입력하십시오.</string>
+	<string name="hint_quota_over">한도가 이미 다 썼습니다!</string>
+	<string name="hint_no_search">검색 결과가 없습니다.</string>
+	<string name="hint_submit_fail">커밋 실패</string>
+	<string name="hint_config_fail">구성 정보 가져오기 예외!</string>
+	<string name="hint_change">먼저 바꿔주세요!</string>
+	<string name="hint_download_complete">다운로드 완료</string>
+	<string name="btn_scroll">슬라이딩</string>
+	<string name="btn_up_down">상하</string>
+	<string name="btn_left_right">좌우</string>
+	<string name="btn_review_gestures">복합 제스처</string>
+	<string name="hint_input_frequency">슬라이딩 주파수를 입력하십시오.</string>
+	<string name="hint_permission_fail">인증 실패</string>
+	<string name="female_voice">여자 목소리</string>
+	<string name="male_voice">남성</string>
+	<string name="emotional_male_voice">감성 남성</string>
+	<string name="emotional_female_voice">감성 여성</string>
+	<string name="tao_bao">타오바오</string>
+	<string name="jing_dong">경동</string>
+	<string name="large_coupons">거액권</string>
+	<string name="good_coupons_live">쿠폰 라이브</string>
+	<string name="brand_coupons">브랜드권</string>
+	<string name="other">기타</string>
+	<string name="no_data">데이터 없음</string>
 
 </resources>

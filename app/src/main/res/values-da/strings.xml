@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">Intelligent assistent</string>
+	<string name="app_name">ChatGPT- assistent</string>
 	<string name="title_name">hjemmeside</string>
 	<string name="more">oprettet</string>
 	<string name="please_select">Vælg venligst</string>
@@ -10,5 +10,48 @@
 	<string name="model_curie">Dens funktion er ikke så stor som Davinci, men den er hurtigere og billigere end Davinci.</string>
 	<string name="model_babbage">I stand til at udføre enkle opgaver med høj hastighed og lave omkostninger.</string>
 	<string name="model_ada">I stand til at udføre meget enkle opgaver, normalt den hurtigste model i GPT-3 serien, med de laveste omkostninger.</string>
+	<string name="setting">oprettet</string>
+	<string name="permissions">jurisdiktion</string>
+	<string name="permission_text">Du har brug for læse- og skrivetilladelse til at tage billeder</string>
+	<string name="appwidget_text">Eksempel</string>
+	<string name="add_widget">Tilføj kontrol</string>
+	<string name="home_title">Fælles værktøjer</string>
+	<string name="home_title_my">min</string>
+	<string name="home_picture">Generer billeder</string>
+	<string name="home_ChatGPT">ChatGPT</string>
+	<string name="home_small_widget">Widget</string>
+	<string name="home_auto">Automatisk drift</string>
+	<string name="home_text_voice">Tekst til stemme</string>
+	<string name="home_coupons">kupon</string>
+	<string name="home_picture_text">Billedgenkendelse</string>
+	<string name="home_mpac">MPAndroidChart</string>
+	<string name="home_tool">Forsyningsvirksomheder</string>
+	<string name="hint_use_info">Ingen brugeroplysninger indhentet</string>
+	<string name="hint_quite">Tryk igen for at forlade</string>
+	<string name="hint_widget_added">Komponenten er blevet tilføjet</string>
+	<string name="hint_input_content">Indtast indhold</string>
+	<string name="hint_quota_over">Grænsen er opbrugt!</string>
+	<string name="hint_no_search">Ingen resultater fundet</string>
+	<string name="hint_submit_fail">Indsendelse mislykkedes</string>
+	<string name="hint_config_fail">Undtagelse i at få konfigurationsoplysninger!</string>
+	<string name="hint_change">Omvend dig først!</string>
+	<string name="hint_download_complete">Download fuldført</string>
+	<string name="btn_scroll">slide</string>
+	<string name="btn_up_down">Op og ned</string>
+	<string name="btn_left_right">om</string>
+	<string name="btn_review_gestures">Komposit bevægelse</string>
+	<string name="hint_input_frequency">Indtast glidefrekvensen</string>
+	<string name="hint_permission_fail">tildeling af privilegier mislykkedes</string>
+	<string name="female_voice">Kvindestemme</string>
+	<string name="male_voice">Mandlig stemme</string>
+	<string name="emotional_male_voice">Følelsesmæssig mandlig stemme</string>
+	<string name="emotional_female_voice">Følelsesmæssig kvindelig stemme</string>
+	<string name="tao_bao">TaoBao</string>
+	<string name="jing_dong">JD.COM</string>
+	<string name="large_coupons">Stor mængde værdipapirer</string>
+	<string name="good_coupons_live">Direkte udsendelse af gode kuponer</string>
+	<string name="brand_coupons">Varemærkecertifikat</string>
+	<string name="other">andre</string>
+	<string name="no_data">Ingen data</string>
 
 </resources>

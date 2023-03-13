@@ -65,7 +65,7 @@ public class AutoClickActivity extends BaseActivity {
         mTvInput.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                new EditeDialog(mContext, "请输入滑动频率", 1, new EditeDialog.EditInterface() {
+                new EditeDialog(mContext, getString(R.string.hint_input_frequency), 1, new EditeDialog.EditInterface() {
                     @Override
                     public void onClick(String s) {
                         if (TextUtils.isEmpty(s)) return;
@@ -80,7 +80,6 @@ public class AutoClickActivity extends BaseActivity {
     public boolean checkPermission() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M
                 && !Settings.canDrawOverlays(this)) {
-            Toast.makeText(this, "当前无权限，请授权", Toast.LENGTH_SHORT).show();
             startActivityForResult(
                     new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
                             Uri.parse("package:" + getPackageName())), 0);
@@ -95,10 +94,9 @@ public class AutoClickActivity extends BaseActivity {
         if (requestCode == 0) {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M
                     && !Settings.canDrawOverlays(this)) {
-                Toast.makeText(this, "授权失败", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.hint_permission_fail, Toast.LENGTH_SHORT).show();
 
             } else {
-                Toast.makeText(this, "授权成功", Toast.LENGTH_SHORT).show();
 
             }
         }

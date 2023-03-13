@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">Asistent inteligent</string>
+	<string name="app_name">Asistent ChatGPT</string>
 	<string name="title_name">Pagina principală</string>
 	<string name="more">înființat</string>
 	<string name="please_select">Vă rugăm să selectați</string>
@@ -10,5 +10,48 @@
 	<string name="model_curie">Funcția sa nu este la fel de mare ca Davinci, dar este mai rapidă și mai ieftină decât Davinci.</string>
 	<string name="model_babbage">Capabil de a finaliza sarcini simple cu viteză mare și costuri reduse.</string>
 	<string name="model_ada">Capabil să efectueze sarcini foarte simple, de obicei cel mai rapid model din seria GPT-3, cu cel mai mic cost.</string>
+	<string name="setting">înființat</string>
+	<string name="permissions">jurisdicție</string>
+	<string name="permission_text">Aveți nevoie de permisiunea de citire și scriere pentru a face fotografii</string>
+	<string name="appwidget_text">EXEMPLU</string>
+	<string name="add_widget">Adaugă widget</string>
+	<string name="home_title">Instrumente comune</string>
+	<string name="home_title_my">mea</string>
+	<string name="home_picture">Generați imagini</string>
+	<string name="home_ChatGPT">ChatGPT</string>
+	<string name="home_small_widget">Widget</string>
+	<string name="home_auto">Operare automată</string>
+	<string name="home_text_voice">Text la voce</string>
+	<string name="home_coupons">cupon</string>
+	<string name="home_picture_text">Recunoașterea imaginii</string>
+	<string name="home_mpac">MPAndroidChart</string>
+	<string name="home_tool">Utilități</string>
+	<string name="hint_use_info">Nu se obțin informații despre utilizator</string>
+	<string name="hint_quite">Apăsați din nou pentru a părăsi</string>
+	<string name="hint_widget_added">Componenta a fost adăugată</string>
+	<string name="hint_input_content">Introduceți conținutul</string>
+	<string name="hint_quota_over">Limita a fost folosită!</string>
+	<string name="hint_no_search">Nu s-au găsit rezultate</string>
+	<string name="hint_submit_fail">Trimiterea a eșuat</string>
+	<string name="hint_config_fail">Excepţie în obţinerea informaţiilor de configurare!</string>
+	<string name="hint_change">Te rog să te converteşti mai întâi!</string>
+	<string name="hint_download_complete">Descărcare completă</string>
+	<string name="btn_scroll">diapozitiv</string>
+	<string name="btn_up_down">Sus şi jos</string>
+	<string name="btn_left_right">despre</string>
+	<string name="btn_review_gestures">Gest compozit</string>
+	<string name="hint_input_frequency">Introduceţi frecvenţa de glisare</string>
+	<string name="hint_permission_fail">grant privilegiu eșuat</string>
+	<string name="female_voice">Vocea feminină</string>
+	<string name="male_voice">Vocea masculină</string>
+	<string name="emotional_male_voice">Vocea masculină emoţională</string>
+	<string name="emotional_female_voice">Vocea feminină emoţională</string>
+	<string name="tao_bao">TaoBao</string>
+	<string name="jing_dong">JD.COM</string>
+	<string name="large_coupons">Cantitate mare de valori mobiliare</string>
+	<string name="good_coupons_live">Transmisie în direct a cupoanelor bune</string>
+	<string name="brand_coupons">Certificat de marcă</string>
+	<string name="other">altele</string>
+	<string name="no_data">Fără date</string>
 
 </resources>

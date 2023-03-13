@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">Умный помощник</string>
+	<string name="app_name">Помощник ChatGPT</string>
 	<string name="title_name">Главная страница</string>
 	<string name="more">Настройка</string>
 	<string name="please_select">Выберите</string>
@@ -10,5 +10,48 @@
 	<string name="model_curie">Достаточно мощный, функционал не большой для davinci, но быстрее, чем davinci, и дешевле.</string>
 	<string name="model_babbage">Способность выполнять простые задачи, скорость, низкая стоимость.</string>
 	<string name="model_ada">Способность выполнять очень простые задачи, как правило, самая быстрая модель в серии GPT - 3 и самая низкая стоимость.</string>
+	<string name="setting">Настройка</string>
+	<string name="permissions">Полномочия</string>
+	<string name="permission_text">Требуются права чтения и записи для фотографирования.</string>
+	<string name="appwidget_text">ЭКСАМПЛЕ</string>
+	<string name="add_widget">Дополнительный виджет</string>
+	<string name="home_title">Обычные инструменты</string>
+	<string name="home_title_my">Мой.</string>
+	<string name="home_picture">Создать изображение</string>
+	<string name="home_ChatGPT">ЧатГПТ</string>
+	<string name="home_small_widget">Небольшие компоненты</string>
+	<string name="home_auto">Автоматизация операций</string>
+	<string name="home_text_voice">Текстовая транскрипция</string>
+	<string name="home_coupons">Купоны</string>
+	<string name="home_picture_text">Распознавание изображений</string>
+	<string name="home_mpac">MPAndroidChart</string>
+	<string name="home_tool">Полезные инструменты</string>
+	<string name="hint_use_info">Информация о пользователе не получена</string>
+	<string name="hint_quite">Нажмите еще раз, чтобы уйти.</string>
+	<string name="hint_widget_added">Компоненты добавлены.</string>
+	<string name="hint_input_content">Введите содержимое</string>
+	<string name="hint_quota_over">Номер исчерпан!</string>
+	<string name="hint_no_search">Результат не найден</string>
+	<string name="hint_submit_fail">Ошибка подачи</string>
+	<string name="hint_config_fail">Получение информации о конфигурации аномалии!</string>
+	<string name="hint_change">Пожалуйста, сначала преобразуйте!</string>
+	<string name="hint_download_complete">Загрузка завершена</string>
+	<string name="btn_scroll">Скользящий</string>
+	<string name="btn_up_down">Вверх и вниз</string>
+	<string name="btn_left_right">Около</string>
+	<string name="btn_review_gestures">сложный жест</string>
+	<string name="hint_input_frequency">Введите частоту скольжения.</string>
+	<string name="hint_permission_fail">Ошибка авторизации</string>
+	<string name="female_voice">Женские голоса</string>
+	<string name="male_voice">Мужской голос</string>
+	<string name="emotional_male_voice">Эмоциональный мужской голос</string>
+	<string name="emotional_female_voice">Эмоциональный женский голос</string>
+	<string name="tao_bao">Таобао</string>
+	<string name="jing_dong">Цзиндун</string>
+	<string name="large_coupons">Большие купоны</string>
+	<string name="good_coupons_live">Хороший билет в прямом эфире.</string>
+	<string name="brand_coupons">Билеты марки</string>
+	<string name="other">Прочее</string>
+	<string name="no_data">Нет данных</string>
 
 </resources>

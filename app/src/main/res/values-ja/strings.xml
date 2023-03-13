@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">インテリジェントアシスタント</string>
+	<string name="app_name">ChatGPTアシスタント</string>
 	<string name="title_name">トップページ</string>
 	<string name="more">設定＃セッテイ＃</string>
 	<string name="please_select">選択してください</string>
@@ -10,5 +10,48 @@
 	<string name="model_curie">十分に強力で、機能はdavinciほどではありませんが、davinciよりも高速でコストがかかります。</string>
 	<string name="model_babbage">簡単なタスクを完了でき、高速で低コストです。</string>
 	<string name="model_ada">非常に簡単なタスクを実行することができ、通常はGPT-3シリーズの中で最も高速な機種であり、コストが最も低い。</string>
+	<string name="setting">設定＃セッテイ＃</string>
+	<string name="permissions">アクセス権</string>
+	<string name="permission_text">写真を撮るには読み書き権限が必要です</string>
+	<string name="appwidget_text">EXAMPLE</string>
+	<string name="add_widget">Add widget</string>
+	<string name="home_title">一般的なツール</string>
+	<string name="home_title_my">マイ</string>
+	<string name="home_picture">画像を生成</string>
+	<string name="home_ChatGPT">ChatGPT</string>
+	<string name="home_small_widget">ウィジェット</string>
+	<string name="home_auto">オペレーションの自動化</string>
+	<string name="home_text_voice">テキスト音声変換</string>
+	<string name="home_coupons">クーポン券</string>
+	<string name="home_picture_text">画像認識</string>
+	<string name="home_mpac">MPAndroidChart</string>
+	<string name="home_tool">ユーティリティユーティリティ</string>
+	<string name="hint_use_info">ユーザー情報が取得されていません</string>
+	<string name="hint_quite">もう一度押す</string>
+	<string name="hint_widget_added">コンポーネントが追加されました</string>
+	<string name="hint_input_content">内容を入力してください</string>
+	<string name="hint_quota_over">限度額が切れた！</string>
+	<string name="hint_no_search">結果が検索されませんでした</string>
+	<string name="hint_submit_fail">コミットに失敗しました</string>
+	<string name="hint_config_fail">構成情報の例外を取得します！</string>
+	<string name="hint_change">まず変換してください！</string>
+	<string name="hint_download_complete">ダウンロード完了</string>
+	<string name="btn_scroll">すべり</string>
+	<string name="btn_up_down">上下</string>
+	<string name="btn_left_right">左右</string>
+	<string name="btn_review_gestures">ふくごうジェスチャー</string>
+	<string name="hint_input_frequency">スライド周波数を入力してください</string>
+	<string name="hint_permission_fail">承認に失敗しました</string>
+	<string name="female_voice">女声</string>
+	<string name="male_voice">男声</string>
+	<string name="emotional_male_voice">情感男声</string>
+	<string name="emotional_female_voice">情感女声</string>
+	<string name="tao_bao">宝を洗う</string>
+	<string name="jing_dong">京東</string>
+	<string name="large_coupons">多額の券</string>
+	<string name="good_coupons_live">好券生中継</string>
+	<string name="brand_coupons">ブランド券</string>
+	<string name="other">その他</string>
+	<string name="no_data">データが一時的にありません</string>
 
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">智能助手</string>
+	<string name="app_name">ChatGPT助手</string>
 	<string name="title_name">首頁</string>
 	<string name="more">設定</string>
 	<string name="please_select">請選擇</string>
@@ -10,5 +10,48 @@
 	<string name="model_curie">足够强大，功能沒有davinci大，但比davinci更快，成本更低。</string>
 	<string name="model_babbage">能够完成簡單的任務，速度快，成本低。</string>
 	<string name="model_ada">能够執行非常簡單的任務，通常是GPT-3系列中速度最快的機型，並且成本最低。</string>
+	<string name="setting">設定</string>
+	<string name="permissions">許可權</string>
+	<string name="permission_text">需要讀寫許可權才能拍照</string>
+	<string name="appwidget_text">EXAMPLE</string>
+	<string name="add_widget">Add widget</string>
+	<string name="home_title">常用工具</string>
+	<string name="home_title_my">我的</string>
+	<string name="home_picture">生成圖片</string>
+	<string name="home_ChatGPT">ChatGPT</string>
+	<string name="home_small_widget">小組件</string>
+	<string name="home_auto">自動化操作</string>
+	<string name="home_text_voice">文字轉語音</string>
+	<string name="home_coupons">優惠券</string>
+	<string name="home_picture_text">圖片識別</string>
+	<string name="home_mpac">MPAndroidChart</string>
+	<string name="home_tool">實用工具</string>
+	<string name="hint_use_info">未獲取到用戶資訊</string>
+	<string name="hint_quite">再按一次離開</string>
+	<string name="hint_widget_added">組件已經添加過</string>
+	<string name="hint_input_content">請輸入內容</string>
+	<string name="hint_quota_over">額度已用完！</string>
+	<string name="hint_no_search">未蒐索到結果</string>
+	<string name="hint_submit_fail">提交失敗</string>
+	<string name="hint_config_fail">獲取配寘資訊异常！</string>
+	<string name="hint_change">請先轉換！</string>
+	<string name="hint_download_complete">下載完成</string>
+	<string name="btn_scroll">滑動</string>
+	<string name="btn_up_down">上下</string>
+	<string name="btn_left_right">左右</string>
+	<string name="btn_review_gestures">複合手勢</string>
+	<string name="hint_input_frequency">請輸入滑動頻率</string>
+	<string name="hint_permission_fail">授權失敗</string>
+	<string name="female_voice">女聲</string>
+	<string name="male_voice">男聲</string>
+	<string name="emotional_male_voice">情感男聲</string>
+	<string name="emotional_female_voice">情感女聲</string>
+	<string name="tao_bao">淘寶</string>
+	<string name="jing_dong">京東</string>
+	<string name="large_coupons">大額券</string>
+	<string name="good_coupons_live">好券直播</string>
+	<string name="brand_coupons">品牌券</string>
+	<string name="other">其他</string>
+	<string name="no_data">暫無數據</string>
 
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">مساعد ذكي</string>
+	<string name="app_name">تشاتبت مساعد</string>
 	<string name="title_name">الصفحة الرئيسية</string>
 	<string name="more">ضبط</string>
 	<string name="please_select">الرجاء اختيار</string>
@@ -10,5 +10,48 @@
 	<string name="model_curie">قوية بما فيه الكفاية ، وظيفة ليست كبيرة مثل دافنشي ، ولكن أسرع وأقل تكلفة من دافنشي .</string>
 	<string name="model_babbage">فائدة نموذج يمكن إكمال مهام بسيطة ، وسرعة عالية ومنخفضة التكلفة .</string>
 	<string name="model_ada">قادرة على أداء مهام بسيطة جدا ، وعادة ما تكون أسرع في سلسلة GPT-3 ، بأقل تكلفة .</string>
+	<string name="setting">ضبط</string>
+	<string name="permissions">أذونات</string>
+	<string name="permission_text">تحتاج إلى قراءة وكتابة أذونات لالتقاط الصور</string>
+	<string name="appwidget_text">اكسامبلي</string>
+	<string name="add_widget">إضافة القطعة</string>
+	<string name="home_title">أداة مشتركة</string>
+	<string name="home_title_my">ا > ?</string>
+	<string name="home_picture">توليد الصور</string>
+	<string name="home_ChatGPT">شاتجبت</string>
+	<string name="home_small_widget">مكونات صغيرة</string>
+	<string name="home_auto">التشغيل الآلي</string>
+	<string name="home_text_voice">النص إلى كلام</string>
+	<string name="home_coupons">كوبونات</string>
+	<string name="home_picture_text">التعرف على الصور</string>
+	<string name="home_mpac">إم بي أندرويد تشارت</string>
+	<string name="home_tool">أداة عملية</string>
+	<string name="hint_use_info">لم يتم الحصول على معلومات المستخدم</string>
+	<string name="hint_quite">اضغط على ترك مرة أخرى</string>
+	<string name="hint_widget_added">وقد تم إضافة عنصر</string>
+	<string name="hint_input_content">الرجاء إدخال المحتوى</string>
+	<string name="hint_quota_over">المبلغ قد نفد !</string>
+	<string name="hint_no_search">لم يتم العثور على نتائج</string>
+	<string name="hint_submit_fail">ارتكاب الفشل</string>
+	<string name="hint_config_fail">الحصول على معلومات التكوين استثناء !</string>
+	<string name="hint_change">يرجى تحويل الأولى !</string>
+	<string name="hint_download_complete">تحميل كامل</string>
+	<string name="btn_scroll">انزلق</string>
+	<string name="btn_up_down">صعودا وهبوطا</string>
+	<string name="btn_left_right">حول</string>
+	<string name="btn_review_gestures">مركب لفتة</string>
+	<string name="hint_input_frequency">من فضلك أدخل انزلاق التردد</string>
+	<string name="hint_permission_fail">إذن الفشل</string>
+	<string name="female_voice">صوت بنات</string>
+	<string name="male_voice">ذكر صوت</string>
+	<string name="emotional_male_voice">العاطفة ذكر</string>
+	<string name="emotional_female_voice">فتاة عاطفية</string>
+	<string name="tao_bao">تاوباو</string>
+	<string name="jing_dong">بكين الشرق</string>
+	<string name="large_coupons">قسيمة كبيرة</string>
+	<string name="good_coupons_live">قسيمة جيدة لايف</string>
+	<string name="brand_coupons">العلامة التجارية قسيمة</string>
+	<string name="other">أخرى .</string>
+	<string name="no_data">بيانات مؤقتة</string>
 
 </resources>

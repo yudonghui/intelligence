@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">Intelligente assistent</string>
+	<string name="app_name">ChatGPT-assistent</string>
 	<string name="title_name">startpagina</string>
 	<string name="more">ingesteld</string>
 	<string name="please_select">Selecteer</string>
@@ -10,5 +10,48 @@
 	<string name="model_curie">Het is krachtig genoeg, zijn functie is niet zo groot als davinci, maar het is sneller en goedkoper dan davinci.</string>
 	<string name="model_babbage">In staat om eenvoudige taken met hoge snelheid en lage kosten te voltooien.</string>
 	<string name="model_ada">In staat om zeer eenvoudige taken uit te voeren, meestal het snelste model in de GPT-3 serie, met de laagste kosten.</string>
+	<string name="setting">ingesteld</string>
+	<string name="permissions">jurisdictie</string>
+	<string name="permission_text">Je hebt lees- en schrijftoestemming nodig om foto's te maken</string>
+	<string name="appwidget_text">VOORBEELD</string>
+	<string name="add_widget">Widget toevoegen</string>
+	<string name="home_title">Gemeenschappelijke instrumenten</string>
+	<string name="home_title_my">mijn</string>
+	<string name="home_picture">Afbeeldingen genereren</string>
+	<string name="home_ChatGPT">ChatGPT</string>
+	<string name="home_small_widget">WidgetComment</string>
+	<string name="home_auto">Automatische werking</string>
+	<string name="home_text_voice">Tekst naar stem</string>
+	<string name="home_coupons">coupon</string>
+	<string name="home_picture_text">Beeldherkenning</string>
+	<string name="home_mpac">MPAndroïdgrafiek</string>
+	<string name="home_tool">Hulpmiddelen</string>
+	<string name="hint_use_info">Geen gebruikersinformatie verkregen</string>
+	<string name="hint_quite">Druk nogmaals op om te vertrekken</string>
+	<string name="hint_widget_added">Component is toegevoegd</string>
+	<string name="hint_input_content">Voer inhoud in</string>
+	<string name="hint_quota_over">De limiet is opgebruikt!</string>
+	<string name="hint_no_search">Geen resultaten gevonden</string>
+	<string name="hint_submit_fail">Indiening mislukt</string>
+	<string name="hint_config_fail">Uitzondering bij het verkrijgen van configuratiegegevens!</string>
+	<string name="hint_change">Bekeer je alsjeblieft eerst!</string>
+	<string name="hint_download_complete">Download voltooid</string>
+	<string name="btn_scroll">slide</string>
+	<string name="btn_up_down">Op en neer</string>
+	<string name="btn_left_right">over</string>
+	<string name="btn_review_gestures">Samengesteld gebaar</string>
+	<string name="hint_input_frequency">Voer de schuiffrequentie in</string>
+	<string name="hint_permission_fail">Toekenning van privileges mislukt</string>
+	<string name="female_voice">Vrouwelijke stem</string>
+	<string name="male_voice">Mannelijke stem</string>
+	<string name="emotional_male_voice">Emotionele mannelijke stem</string>
+	<string name="emotional_female_voice">Emotionele vrouwelijke stem</string>
+	<string name="tao_bao">TaoBao.</string>
+	<string name="jing_dong">JD.COM</string>
+	<string name="large_coupons">Grote hoeveelheid effecten</string>
+	<string name="good_coupons_live">Live uitzending van goede coupons</string>
+	<string name="brand_coupons">Merkcertificaat</string>
+	<string name="other">andere</string>
+	<string name="no_data">Geen gegevens</string>
 
 </resources>

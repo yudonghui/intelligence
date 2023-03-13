@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="buttonScroll"
-            android:text="滑动" />
+            android:text="@string/btn_scroll" />
 
         <RadioGroup
             android:id="@+id/rg_scroll"
@@ -33,14 +33,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:paddingRight="10dp"
-                android:text="上下" />
+                android:text="@string/btn_up_down" />
 
             <RadioButton
                 android:id="@+id/rb_left_right"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:paddingRight="10dp"
-                android:text="左右" />
+                android:text="@string/btn_left_right" />
         </RadioGroup>
 
         <TextView
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/ll_scroll"
         android:onClick="buttonStart"
-        android:text="复合手势" />
+        android:text="@string/btn_review_gestures" />
 
 
     <TextView

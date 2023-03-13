@@ -11,7 +11,6 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -22,12 +21,12 @@ import com.google.android.gms.ads.initialization.OnInitializationCompleteListene
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.ydh.intelligence.CompletionEntity;
-import com.ydh.intelligence.networks.HttpClient;
 import com.ydh.intelligence.R;
 import com.ydh.intelligence.SPUtils;
 import com.ydh.intelligence.db.ClickEntity;
 import com.ydh.intelligence.db.DbInterface;
 import com.ydh.intelligence.db.DbManager;
+import com.ydh.intelligence.networks.HttpClient;
 import com.ydh.intelligence.utils.DateFormtUtils;
 import com.ydh.intelligence.utils.DeviceUtils;
 import com.ydh.intelligence.utils.SecretUtils;
@@ -97,7 +96,7 @@ public class ChatGptActivity extends BaseActivity {
             public void onClick(View v) {
                 String s = mEtInput.getText().toString();
                 if (TextUtils.isEmpty(s)) {
-                    Toast.makeText(ChatGptActivity.this, "请输入内容", Toast.LENGTH_SHORT).show();
+                    toast(getString(R.string.hint_input_content));
                     return;
                 }
                 completions();
@@ -150,7 +149,7 @@ public class ChatGptActivity extends BaseActivity {
     private void completions() {
         long useTokens = SPUtils.getCacheL(SPUtils.FILE_USER, SPUtils.USE_TOKENS);
         if (useTokens > 1000) {
-            toast("额度已用完！");
+            toast(getString(R.string.hint_quota_over));
             return;
         }
         showLoadingDialog();
@@ -200,7 +199,7 @@ public class ChatGptActivity extends BaseActivity {
                         }
                     });
                 } else {
-                    toast("未搜索到结果");
+                    toast(getString(R.string.hint_no_search));
                 }
 
             }
@@ -208,7 +207,7 @@ public class ChatGptActivity extends BaseActivity {
             @Override
             public void onFailure(Call<CompletionEntity> call, Throwable t) {
                 cancelLoadingDialog();
-                toast("提交失败");
+                toast(getString(R.string.hint_submit_fail));
             }
         });
     }
@@ -267,7 +266,7 @@ public class ChatGptActivity extends BaseActivity {
                 mainActivity.initData();
             } else if (msg.what == 200) {
                 mainActivity.cancelLoadingDialog();
-                Toast.makeText(mainActivity, "获取配置信息异常！", Toast.LENGTH_SHORT).show();
+                mainActivity.toast(mainActivity.getString(R.string.hint_config_fail));
             }
         }
     }

@@ -136,10 +136,10 @@ public class TaoBaoFragment extends BaseFragment {
 
     private void initAdapter() {
         mHomeList.clear();
-        mHomeList.add(new HomeEntity(R.mipmap.three, "大额券", 4));
-        mHomeList.add(new HomeEntity(R.mipmap.two, "好券直播", 2));
-        mHomeList.add(new HomeEntity(R.mipmap.four, "品牌券", 3));
-        mHomeList.add(new HomeEntity(R.mipmap.one, "其他", 9));
+        mHomeList.add(new HomeEntity(R.mipmap.three, getString(R.string.large_coupons), 4));
+        mHomeList.add(new HomeEntity(R.mipmap.two, getString(R.string.good_coupons_live), 2));
+        mHomeList.add(new HomeEntity(R.mipmap.four, getString(R.string.brand_coupons), 3));
+        mHomeList.add(new HomeEntity(R.mipmap.one, getString(R.string.other), 9));
         CommonAdapter<HomeEntity> mCommonAdapter = new CommonAdapter<HomeEntity>(mContext, R.layout.item_home, mHomeList) {
 
             @Override
@@ -206,7 +206,7 @@ public class TaoBaoFragment extends BaseFragment {
                             mMaterialList.addAll(map_data);
                             mMaterialAdapter.notifyDataSetChanged();
                         } else {
-                            CommonUtil.showToast("暂无数据");
+                            CommonUtil.showToast(getString(R.string.no_data));
                         }
                     } else {
                         CommonUtil.showToast(MsgCode.getStrByCode(error_response.getCode()));

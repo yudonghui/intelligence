@@ -39,7 +39,7 @@
                 android:id="@+id/tv_tao_bao"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="淘宝"
+                android:text="@string/tao_bao"
                 android:textColor="@color/color_theme"
                 android:textSize="14sp" />
         </LinearLayout>
@@ -63,7 +63,7 @@
                 android:id="@+id/tv_jing_dong"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="京东"
+                android:text="@string/jing_dong"
                 android:textColor="@color/color_85"
                 android:textSize="12sp" />
         </LinearLayout>

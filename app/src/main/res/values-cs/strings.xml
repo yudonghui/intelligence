@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">Inteligentní asistent</string>
+	<string name="app_name">ChatGPT asistent</string>
 	<string name="title_name">domovská stránka</string>
 	<string name="more">nastavit</string>
 	<string name="please_select">Prosím vyberte</string>
@@ -10,5 +10,48 @@
 	<string name="model_curie">Je dostatečně silný, jeho funkce není tak velká jako davinci, ale je rychlejší a levnější než davinci.</string>
 	<string name="model_babbage">Schopný dokončit jednoduché úkoly s vysokou rychlostí a nízkými náklady.</string>
 	<string name="model_ada">Schopný provádět velmi jednoduché úkoly, obvykle nejrychlejší model řady GPT-3, s nejnižšími náklady.</string>
+	<string name="setting">nastavit</string>
+	<string name="permissions">jurisdikce</string>
+	<string name="permission_text">K pořizování fotografií potřebujete oprávnění k čtení a zápisu</string>
+	<string name="appwidget_text">PŘÍKLAD</string>
+	<string name="add_widget">Přidat widget</string>
+	<string name="home_title">Společné nástroje</string>
+	<string name="home_title_my">můj</string>
+	<string name="home_picture">Generovat obrázky</string>
+	<string name="home_ChatGPT">ChatGPT</string>
+	<string name="home_small_widget">Widget</string>
+	<string name="home_auto">Automatický provoz</string>
+	<string name="home_text_voice">Text na hlas</string>
+	<string name="home_coupons">kupón</string>
+	<string name="home_picture_text">Rozpoznávání obrázků</string>
+	<string name="home_mpac">MPAndroidgraf</string>
+	<string name="home_tool">Nástroje</string>
+	<string name="hint_use_info">Žádné informace o uživateli nezískané</string>
+	<string name="hint_quite">Znovu stiskněte, abyste odešli.</string>
+	<string name="hint_widget_added">Součást byla přidána</string>
+	<string name="hint_input_content">Zadejte prosím obsah</string>
+	<string name="hint_quota_over">Limit byl vyčerpán!</string>
+	<string name="hint_no_search">Žádné výsledky nebyly nalezeny</string>
+	<string name="hint_submit_fail">Odeslání selhalo</string>
+	<string name="hint_config_fail">Výjimka v získávání informací o konfiguraci!</string>
+	<string name="hint_change">Prosím, nejdřív konvertujte!</string>
+	<string name="hint_download_complete">Stahování dokončeno</string>
+	<string name="btn_scroll">posuv</string>
+	<string name="btn_up_down">Nahoru a dolů</string>
+	<string name="btn_left_right">o</string>
+	<string name="btn_review_gestures">Kompozitní gesto</string>
+	<string name="hint_input_frequency">Zadejte prosím posuvnou frekvenci</string>
+	<string name="hint_permission_fail">Udělení oprávnění selhalo</string>
+	<string name="female_voice">Ženský hlas</string>
+	<string name="male_voice">Mužský hlas</string>
+	<string name="emotional_male_voice">Emocionální mužský hlas</string>
+	<string name="emotional_female_voice">Emocionální ženský hlas</string>
+	<string name="tao_bao">TaoBao.</string>
+	<string name="jing_dong">JD.COM</string>
+	<string name="large_coupons">Velké množství cenných papírů</string>
+	<string name="good_coupons_live">Živé vysílání dobrých kupónů</string>
+	<string name="brand_coupons">Certifikát značky</string>
+	<string name="other">ostatní</string>
+	<string name="no_data">Žádné údaje</string>
 
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">Inteligentni pomočnik</string>
+	<string name="app_name">Pomočnik za ChatGPT</string>
 	<string name="title_name">Domača stran</string>
 	<string name="more">nastavitev</string>
 	<string name="please_select">Prosim izberite</string>
@@ -10,5 +10,48 @@
 	<string name="model_curie">Njegova funkcija ni tako velika kot davinci, vendar je hitrejša in cenejša od davinci.</string>
 	<string name="model_babbage">Sposoben opraviti preproste naloge z visoko hitrostjo in nizkimi stroški.</string>
 	<string name="model_ada">Sposoben opravljati zelo preproste naloge, običajno najhitrejši model v seriji GPT-3, z najnižjimi stroški.</string>
+	<string name="setting">nastavitev</string>
+	<string name="permissions">pristojnost</string>
+	<string name="permission_text">Za fotografiranje potrebujete dovoljenje za branje in pisanje</string>
+	<string name="appwidget_text">PRIMER</string>
+	<string name="add_widget">Dodaj gradnik</string>
+	<string name="home_title">Skupna orodja</string>
+	<string name="home_title_my">moj</string>
+	<string name="home_picture">Ustvari slike</string>
+	<string name="home_ChatGPT">ChatGPT</string>
+	<string name="home_small_widget">Gradnik</string>
+	<string name="home_auto">Samodejno delovanje</string>
+	<string name="home_text_voice">Besedilo v glas</string>
+	<string name="home_coupons">kupon</string>
+	<string name="home_picture_text">Prepoznavanje slik</string>
+	<string name="home_mpac">MPAndroidChart</string>
+	<string name="home_tool">Komunalne storitve</string>
+	<string name="hint_use_info">Ni pridobljenih informacij o uporabniku</string>
+	<string name="hint_quite">Še enkrat pritisnite, da odidete.</string>
+	<string name="hint_widget_added">Dodana je komponenta</string>
+	<string name="hint_input_content">Prosim vnesite vsebino</string>
+	<string name="hint_quota_over">Meja je porabljena!</string>
+	<string name="hint_no_search">Ni bilo najdenih rezultatov</string>
+	<string name="hint_submit_fail">Predložitev ni uspela</string>
+	<string name="hint_config_fail">Izjema pri pridobivanju informacij o konfiguraciji!</string>
+	<string name="hint_change">Prosim spreobrnite se!</string>
+	<string name="hint_download_complete">Prenos končan</string>
+	<string name="btn_scroll">drsnik</string>
+	<string name="btn_up_down">Gor in dol</string>
+	<string name="btn_left_right">o</string>
+	<string name="btn_review_gestures">Sestavljena gesta</string>
+	<string name="hint_input_frequency">Vnesite drsna frekvenca.</string>
+	<string name="hint_permission_fail">Podelitev privilegijev ni uspela</string>
+	<string name="female_voice">Ženski glas</string>
+	<string name="male_voice">Moški glas</string>
+	<string name="emotional_male_voice">Čustveni moški glas</string>
+	<string name="emotional_female_voice">Čustveni ženski glas</string>
+	<string name="tao_bao">TaoBao</string>
+	<string name="jing_dong">JD.COM</string>
+	<string name="large_coupons">Velik znesek vrednostnih papirjev</string>
+	<string name="good_coupons_live">Oddajanje dobrih kuponov v živo</string>
+	<string name="brand_coupons">Potrdilo blagovne znamke</string>
+	<string name="other">drugo</string>
+	<string name="no_data">Ni podatkov</string>
 
 </resources>

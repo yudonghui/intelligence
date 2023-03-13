@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">Intelligens asszisztens</string>
+	<string name="app_name">ChatGPT asszisztens</string>
 	<string name="title_name">honlap</string>
 	<string name="more">felállítás</string>
 	<string name="please_select">Válassza ki</string>
@@ -10,5 +10,48 @@
 	<string name="model_curie">Elég erős, funkciója nem olyan nagy, mint Davinci, de gyorsabb és olcsóbb, mint Davinci.</string>
 	<string name="model_babbage">Képes elvégezni az egyszerű feladatokat nagy sebességgel és alacsony költséggel.</string>
 	<string name="model_ada">Képes elvégezni nagyon egyszerű feladatokat, általában a leggyorsabb modell a GPT-3 sorozatban, a legalacsonyabb költséggel.</string>
+	<string name="setting">felállítás</string>
+	<string name="permissions">joghatóság</string>
+	<string name="permission_text">Olvasási és írási engedélyre van szükség a képek készítéséhez</string>
+	<string name="appwidget_text">PÉLDA</string>
+	<string name="add_widget">Widget hozzáadása</string>
+	<string name="home_title">Közös eszközök</string>
+	<string name="home_title_my">az én</string>
+	<string name="home_picture">Képek generálása</string>
+	<string name="home_ChatGPT">ChatGPT</string>
+	<string name="home_small_widget">Widget</string>
+	<string name="home_auto">Automatikus működés</string>
+	<string name="home_text_voice">Szöveg hangra</string>
+	<string name="home_coupons">kupon</string>
+	<string name="home_picture_text">Képfelismerés</string>
+	<string name="home_mpac">MPAndroidChart</string>
+	<string name="home_tool">Közművek</string>
+	<string name="hint_use_info">A felhasználói információk nem kaphatók meg</string>
+	<string name="hint_quite">Nyomja meg újra a kilépéshez</string>
+	<string name="hint_widget_added">A komponens hozzáadása</string>
+	<string name="hint_input_content">Adja meg a tartalmat</string>
+	<string name="hint_quota_over">Elhasználták a határt!</string>
+	<string name="hint_no_search">Nincs találat</string>
+	<string name="hint_submit_fail">Beküldés sikertelen</string>
+	<string name="hint_config_fail">Kivétel a konfigurációs információk megszerzésében!</string>
+	<string name="hint_change">Kérem, térjen át először!</string>
+	<string name="hint_download_complete">Letöltés befejeződött</string>
+	<string name="btn_scroll">slide</string>
+	<string name="btn_up_down">Fel és le</string>
+	<string name="btn_left_right">körülbelül</string>
+	<string name="btn_review_gestures">Összetett gesztus</string>
+	<string name="hint_input_frequency">Adja meg a csúszási frekvenciát</string>
+	<string name="hint_permission_fail">jogosultságok megadása nem sikerült</string>
+	<string name="female_voice">Női hang</string>
+	<string name="male_voice">Férfi hang</string>
+	<string name="emotional_male_voice">Érzelmi férfi hang</string>
+	<string name="emotional_female_voice">Érzelmi női hang</string>
+	<string name="tao_bao">TaoBao</string>
+	<string name="jing_dong">JD.COM</string>
+	<string name="large_coupons">Nagy mennyiségű értékpapír</string>
+	<string name="good_coupons_live">Jó kuponok élő közvetítése</string>
+	<string name="brand_coupons">Márkaigazolás</string>
+	<string name="other">egyéb</string>
+	<string name="no_data">Nincs adat</string>
 
 </resources>

@@ -201,16 +201,11 @@ public class HttpClient {
             HttpLoggingInterceptor loggingInterceptor = new HttpLoggingInterceptor(new HttpLoggingInterceptor.Logger() {
                 @Override
                 public void log(String message) {
-                    if (message.contains("trace-id")) {
-                        LogUtils.e("返回结果: " + message);
-                    }
-                    if (message.startsWith("{")) {
+                    if (message.startsWith("{")||message.startsWith("[")) {
                         // LogUtils.e("请求结果" + message);
-                        LogUtils.e("请求结果" + message);
+                        LogUtils.e("请求参数/结果" + message);
                     } else if (message.contains("-->") && message.contains("https://")) {
                         LogUtils.e("请求接口" + message);
-                    } else if (message.contains("app_key")) {
-                        LogUtils.e("请求参数" + message.replace("&", "\n").replace("=", ":"));
                     }
                 }
             });

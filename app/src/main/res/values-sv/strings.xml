@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">Intelligent assistent</string>
+	<string name="app_name">ChatGPT- assistent</string>
 	<string name="title_name">startsida</string>
 	<string name="more">inrätta</string>
 	<string name="please_select">Välj</string>
@@ -10,5 +10,48 @@
 	<string name="model_curie">Dess funktion är inte lika stor som Davinci, men den är snabbare och billigare än Davinci.</string>
 	<string name="model_babbage">Kan slutföra enkla uppgifter med hög hastighet och låg kostnad.</string>
 	<string name="model_ada">Kan utföra mycket enkla uppgifter, vanligtvis den snabbaste modellen i GPT-3-serien, med den lägsta kostnaden.</string>
+	<string name="setting">inrätta</string>
+	<string name="permissions">jurisdiktion</string>
+	<string name="permission_text">Du behöver läs- och skrivtillstånd för att ta bilder</string>
+	<string name="appwidget_text">EXEMPEL</string>
+	<string name="add_widget">Lägg till grafisk komponent</string>
+	<string name="home_title">Gemensamma verktyg</string>
+	<string name="home_title_my">min</string>
+	<string name="home_picture">Skapa bilder</string>
+	<string name="home_ChatGPT">ChatGPT</string>
+	<string name="home_small_widget">Komponent</string>
+	<string name="home_auto">Automatisk drift</string>
+	<string name="home_text_voice">Text till röst</string>
+	<string name="home_coupons">kupong</string>
+	<string name="home_picture_text">Bildigenkänning</string>
+	<string name="home_mpac">MPAndroidChart</string>
+	<string name="home_tool">Verktyg</string>
+	<string name="hint_use_info">Ingen användarinformation erhållits</string>
+	<string name="hint_quite">Tryck igen för att lämna</string>
+	<string name="hint_widget_added">Komponent har lagts till</string>
+	<string name="hint_input_content">Ange innehåll</string>
+	<string name="hint_quota_over">Gränsen är slut!</string>
+	<string name="hint_no_search">Inga resultat hittades</string>
+	<string name="hint_submit_fail">Inlämning misslyckades</string>
+	<string name="hint_config_fail">Undantag för att få konfigurationsinformation!</string>
+	<string name="hint_change">Omvandla först!</string>
+	<string name="hint_download_complete">Ladda ner färdig</string>
+	<string name="btn_scroll">slide</string>
+	<string name="btn_up_down">Upp och ner</string>
+	<string name="btn_left_right">om</string>
+	<string name="btn_review_gestures">Sammansatt gest</string>
+	<string name="hint_input_frequency">Ange skjutfrekvensen</string>
+	<string name="hint_permission_fail">Beviljande av privilegier misslyckades</string>
+	<string name="female_voice">Kvinnlig röst</string>
+	<string name="male_voice">Manlig röst</string>
+	<string name="emotional_male_voice">Känslig manlig röst</string>
+	<string name="emotional_female_voice">Känslig kvinnlig röst</string>
+	<string name="tao_bao">TaoBao</string>
+	<string name="jing_dong">JD.COM</string>
+	<string name="large_coupons">Stor mängd värdepapper</string>
+	<string name="good_coupons_live">Direktsändning av bra kuponger</string>
+	<string name="brand_coupons">Varumärkesintyg</string>
+	<string name="other">Annat</string>
+	<string name="no_data">Inga data</string>
 
 </resources>

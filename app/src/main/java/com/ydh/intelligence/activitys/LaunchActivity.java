@@ -20,16 +20,25 @@ import com.ydh.intelligence.common.updateapp.CustomUpdateParser;
 import com.ydh.intelligence.common.updateapp.CustomUpdatePrompter;
 import com.ydh.intelligence.dialogs.AgreementDialog;
 import com.ydh.intelligence.entitys.HomeEntity;
+import com.ydh.intelligence.entitys.UserEntity;
 import com.ydh.intelligence.interfaces.ViewInterface;
+import com.ydh.intelligence.networks.HttpClient;
 import com.ydh.intelligence.utils.CommonUtil;
+import com.ydh.intelligence.utils.DeviceUtils;
 import com.zhy.adapter.recyclerview.CommonAdapter;
 import com.zhy.adapter.recyclerview.base.ViewHolder;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import okhttp3.ResponseBody;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class LaunchActivity extends BaseActivity {
     @BindView(R.id.tv_title)
@@ -40,6 +49,7 @@ public class LaunchActivity extends BaseActivity {
     TextView tvDevice;
     @BindView(R.id.iv_head)
     ImageView ivHead;
+    private UserEntity userInfoEntity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,15 +63,15 @@ public class LaunchActivity extends BaseActivity {
         int dp40 = CommonUtil.dp2px(40);
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams((displayWidth - dp40) / 3, (displayWidth - dp40) / 3);
         ArrayList<HomeEntity> homeEntities = new ArrayList<>();
-        homeEntities.add(new HomeEntity(R.drawable.shape_theme_10, "ChatGPT", 1));
-        homeEntities.add(new HomeEntity(R.drawable.shape_red_10, "生成图片", 2));
-        homeEntities.add(new HomeEntity(R.drawable.shape_blue_10, "小组件", 3));
-        homeEntities.add(new HomeEntity(R.drawable.shape_orange_10, "自动化操作", 4));
-        homeEntities.add(new HomeEntity(R.drawable.shape_blue_10, "文本转语音", 5));
-        homeEntities.add(new HomeEntity(R.drawable.shape_theme_10, "优惠券", 6));
-        homeEntities.add(new HomeEntity(R.drawable.shape_orange_10, "图片识别", 7));
-        homeEntities.add(new HomeEntity(R.drawable.shape_red_10, "MPAndroidChart", 8));
-        homeEntities.add(new HomeEntity(R.drawable.shape_gray_10, "实用工具", 100));
+        homeEntities.add(new HomeEntity(R.drawable.shape_theme_10, getString(R.string.home_ChatGPT), 1));
+        homeEntities.add(new HomeEntity(R.drawable.shape_red_10, getString(R.string.home_picture), 2));
+        homeEntities.add(new HomeEntity(R.drawable.shape_blue_10, getString(R.string.home_small_widget), 3));
+        homeEntities.add(new HomeEntity(R.drawable.shape_orange_10, getString(R.string.home_auto), 4));
+        homeEntities.add(new HomeEntity(R.drawable.shape_blue_10, getString(R.string.home_text_voice), 5));
+        homeEntities.add(new HomeEntity(R.drawable.shape_theme_10, getString(R.string.home_coupons), 6));
+        homeEntities.add(new HomeEntity(R.drawable.shape_orange_10, getString(R.string.home_picture_text), 7));
+        homeEntities.add(new HomeEntity(R.drawable.shape_red_10, getString(R.string.home_mpac), 8));
+        homeEntities.add(new HomeEntity(R.drawable.shape_gray_10, getString(R.string.home_tool), 100));
         CommonAdapter<HomeEntity> mAdapter = new CommonAdapter<HomeEntity>(mContext, R.layout.item_main, homeEntities) {
 
             @Override
@@ -113,8 +123,52 @@ public class LaunchActivity extends BaseActivity {
         }
     }
 
-    private void initData() {
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        initData();
+    }
 
+    String[] words = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+
+    private void initData() {
+        Call<List<UserEntity>> call = HttpClient.getHttpSupabase().getUserInfo("eq." + DeviceUtils.getDeviceId(mContext));
+        mNetWorkList.add(call);
+        call.enqueue(new Callback<List<UserEntity>>() {
+            @Override
+            public void onResponse(Call<List<UserEntity>> call, Response<List<UserEntity>> response) {
+                if (response != null && response.body() != null && response.body().size() > 0) {
+                    userInfoEntity = response.body().get(0);
+                } else {
+                    insertData();
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<UserEntity>> call, Throwable t) {
+
+            }
+        });
+
+    }
+
+    private void insertData() {
+        HashMap<String, Object> map = new HashMap<>();
+        map.put("name", "清風_" + words[(int) (Math.random() * 26)] + (int) (Math.random() * 10) + words[(int) (Math.random() * 26)] + (int) (Math.random() * 10) + words[(int) (Math.random() * 26)] + (int) (Math.random() * 10));
+        map.put("deviceId", DeviceUtils.getDeviceId(mContext));
+        Call<ResponseBody> call = HttpClient.getHttpSupabase().insertUse(HttpClient.getRequestBody(map));
+        mNetWorkList.add(call);
+        call.enqueue(new Callback<ResponseBody>() {
+            @Override
+            public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+
+            }
+
+            @Override
+            public void onFailure(Call<ResponseBody> call, Throwable t) {
+
+            }
+        });
     }
 
     private void checkUpdate() {
@@ -134,7 +188,7 @@ public class LaunchActivity extends BaseActivity {
 
         if (keyCode == KeyEvent.KEYCODE_BACK && event.getRepeatCount() == 0) {
             if ((System.currentTimeMillis() - mExitTime) > 1500) {
-                CommonUtil.showToast("再按一次离开券券淘");
+                CommonUtil.showToast(getString(R.string.hint_quite) + getString(R.string.app_name));
                 mExitTime = System.currentTimeMillis();
             } else {
                /* finish();

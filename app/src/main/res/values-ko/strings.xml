@@ -53,5 +53,6 @@
 	<string name="brand_coupons">브랜드권</string>
 	<string name="other">기타</string>
 	<string name="no_data">데이터 없음</string>
+	<string name="add_small_widget">어셈블리 추가</string>
 
 </resources>

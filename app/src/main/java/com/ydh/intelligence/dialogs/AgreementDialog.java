@@ -8,6 +8,7 @@ import android.text.Spanned;
 import android.text.TextPaint;
 import android.text.method.LinkMovementMethod;
 import android.text.style.ClickableSpan;
+import android.text.style.ForegroundColorSpan;
 import android.view.View;
 import android.view.Window;
 import android.widget.ImageView;
@@ -59,7 +60,8 @@ public class AgreementDialog {
                 ds.setColor(ContextCompat.getColor(mContext, R.color.color_theme));
             }
         };
-        ssb.setSpan(clickableSpan, 8, 20, Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
+        ssb.setSpan(clickableSpan, 8, 25, Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
+        ssb.setSpan(new ForegroundColorSpan(ContextCompat.getColor(mContext, R.color.color_red)), 8, 25, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         mTvMessage.setMovementMethod(LinkMovementMethod.getInstance());
         mTvMessage.setText(ssb);
         mTvAgree.setOnClickListener(new View.OnClickListener() {

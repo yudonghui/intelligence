@@ -11,16 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ec701c2-cdea-4fb1-bbee-75df0bd1d5f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/activitys/LoginActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/views/ClearEditText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_white_line_gray_below.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_white_t70_5below.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/account_icon_false.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/close_eye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/fork_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/open_eye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/password_icon_false.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/dialogs/HisDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shape_fenred_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shape_gray_b_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shape_orange_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shape_theme_b_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shape_theme_r_l_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_his.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_his_two.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-it/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -31,46 +30,22 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/intelligence.aab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/output.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/activitys/AutoClickActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/activitys/AutoClickActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/activitys/ChatGptActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/activitys/ChatGptActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/activitys/LaunchActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/activitys/LaunchActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/activitys/SmallWidgetActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/activitys/SmallWidgetActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/activitys/UserActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/activitys/UserActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/activitys/VoiceActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/activitys/VoiceActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/fragments/TaoBaoFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/fragments/TaoBaoFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/networks/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/networks/HttpClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_auto_click.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_auto_click.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_coupons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_coupons.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_launch.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_launch.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_small_widget.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_small_widget.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tao_bao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tao_bao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-ar/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-ar/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-bg/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-bg/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-cs/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-cs/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-da/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-da/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-de/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-de/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-el/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-el/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-en/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-en/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-es/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-es/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-et/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-et/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-fi/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-fi/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-hu/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-hu/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/dialogs/AgreementDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/dialogs/AgreementDialog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values-ja/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-ja/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values-ko/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-ko/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values-nl/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-nl/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-pl/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-pl/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-pt/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-pt/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-ro/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-ro/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-sl/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-sl/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-sv/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-sv/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-th/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-th/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-vi/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-vi/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-zh-rTW/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-zh-rTW/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +86,6 @@
     <option name="KEY_STORE_PATH" value="D:\gitProject\intelligence\intelligence.jks" />
     <option name="KEY_ALIAS" value="key0" />
     <option name="REMEMBER_PASSWORDS" value="true" />
-    <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -128,32 +102,32 @@
   </component>
   <component name="PropertiesComponent">
     <property name="AL_OverrideCheckBoxStatus" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_ara" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_bul" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_cht" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_cs" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_dan" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_de" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_el" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_en" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_est" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_fin" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_fra" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_hu" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_it" value="false" />
+    <property name="AL_SupportedLanguageCheckStatus_ara" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_bul" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_cht" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_cs" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_dan" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_de" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_el" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_en" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_est" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_fin" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_fra" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_hu" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_it" value="true" />
     <property name="AL_SupportedLanguageCheckStatus_jp" value="true" />
     <property name="AL_SupportedLanguageCheckStatus_kor" value="true" />
-    <property name="AL_SupportedLanguageCheckStatus_nl" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_pl" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_pt" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_rom" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_ru" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_slo" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_spa" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_swe" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_th" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_vie" value="false" />
-    <property name="AL_SupportedLanguageCheckStatus_zh" value="false" />
+    <property name="AL_SupportedLanguageCheckStatus_nl" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_pl" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_pt" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_rom" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_ru" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_slo" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_spa" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_swe" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_th" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_vie" value="true" />
+    <property name="AL_SupportedLanguageCheckStatus_zh" value="true" />
     <property name="ApkExportedModule" value="app" />
     <property name="BundleExportedModule" value="app" />
     <property name="DEBUGGABLE_DEVICE" value="xiaomi-redmi_k30_5g-3bfb3652" />
@@ -163,13 +137,11 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2023-03-13T02:22:09.950Z" />
     <property name="ExportApk.ApkPath" value="D:\gitProject\intelligence\app" />
     <property name="ExportApk.BuildVariants" value="release" />
-    <property name="ExportApk.SignV1" value="true" />
-    <property name="ExportApk.SignV2" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yudonghui.github.io" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -177,10 +149,14 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.1695783959">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ydh.intelligence.dialogs" />
+      <recent name="com.ydh.intelligence.views" />
+      <recent name="com.ydh.intelligence.networks" />
+      <recent name="com.ydh.intelligence.utils" />
       <recent name="com.ydh.intelligence" />
     </key>
-    <key name="android.template.-183139210">
+    <key name="CreateClassDialog.RecentsKey">
       <recent name="com.ydh.intelligence" />
     </key>
     <key name="android.template.1721899672">
@@ -197,26 +173,22 @@
       <recent name="com.ydh.intelligence.activitys" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\gitProject\intelligence\app\src\main\res\mipmap-xxhdpi" />
       <recent name="D:\gitProject\intelligence\app\src\main\res\drawable" />
       <recent name="D:\gitProject\intelligence\app\src\main\res\layout" />
+      <recent name="D:\gitProject\intelligence\app\src\main\res\mipmap-xxhdpi" />
       <recent name="D:\gitProject\intelligence\app\src\main\res\anim" />
       <recent name="D:\gitProject\intelligence\app\src\main" />
     </key>
     <key name="android.template.1257450553">
       <recent name="com.ydh.intelligence.activitys" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ydh.intelligence.views" />
-      <recent name="com.ydh.intelligence.networks" />
-      <recent name="com.ydh.intelligence.utils" />
-      <recent name="com.ydh.intelligence.dialogs" />
+    <key name="android.template.-183139210">
       <recent name="com.ydh.intelligence" />
     </key>
     <key name="android.template.9451521">
       <recent name="com.ydh.intelligence.activitys" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
+    <key name="android.template.1695783959">
       <recent name="com.ydh.intelligence" />
     </key>
   </component>
@@ -341,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678434338581</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="云数据库">
+      <created>1678688622316</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678688622316</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -380,47 +359,47 @@
     </state>
     <state x="581" y="478" key="AndroidCreateResourceFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678411958870" />
     <state x="2460" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1676278776777" />
-    <state x="813" y="331" key="AndroidCreateXmlResourceDialog" timestamp="1678688264438">
+    <state x="813" y="331" key="AndroidCreateXmlResourceDialog" timestamp="1678691771892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="813" y="331" key="AndroidCreateXmlResourceDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678688264438" />
+    <state x="813" y="331" key="AndroidCreateXmlResourceDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678691771892" />
     <state x="815" y="285" key="AndroidProcessChooserDialog" timestamp="1678675194204">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="815" y="285" key="AndroidProcessChooserDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678675194204" />
     <state x="2735" y="285" key="AndroidProcessChooserDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1676428910901" />
-    <state x="598" y="114" key="CommitChangelistDialog2" timestamp="1678434336071">
+    <state x="598" y="114" key="CommitChangelistDialog2" timestamp="1678697167199">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678434336071" />
+    <state x="598" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678697167199" />
     <state width="463" height="466" key="DebuggerActiveHint" timestamp="1678675224336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="463" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678675224336" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1677036170444">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1678696505399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1677036170444" />
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678696505399" />
     <state x="2660" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1675992927027" />
-    <state width="938" height="411" key="GridCell.Tab.0.bottom" timestamp="1678688311695">
+    <state width="1877" height="172" key="GridCell.Tab.0.bottom" timestamp="1678692358836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="411" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678688311695" />
+    <state width="1877" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678692358836" />
     <state width="1877" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1677140420634" />
-    <state width="938" height="411" key="GridCell.Tab.0.center" timestamp="1678688311695">
+    <state width="1877" height="172" key="GridCell.Tab.0.center" timestamp="1678692358836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="411" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678688311695" />
+    <state width="1877" height="172" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678692358836" />
     <state width="1877" height="198" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1677140420633" />
-    <state width="938" height="411" key="GridCell.Tab.0.left" timestamp="1678688311695">
+    <state width="1877" height="172" key="GridCell.Tab.0.left" timestamp="1678692358836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="411" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678688311695" />
+    <state width="1877" height="172" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678692358836" />
     <state width="1877" height="198" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1677140420633" />
-    <state width="938" height="411" key="GridCell.Tab.0.right" timestamp="1678688311695">
+    <state width="1877" height="172" key="GridCell.Tab.0.right" timestamp="1678692358836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="411" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678688311695" />
+    <state width="1877" height="172" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678692358836" />
     <state width="1877" height="198" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1677140420633" />
     <state width="1877" height="268" key="GridCell.Tab.1.bottom" timestamp="1678675337355">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -446,10 +425,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1676258614518" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1678434527844">
+    <state width="498" height="468" key="SwitcherDM" timestamp="1678691427224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678434527844" />
+    <state width="498" height="468" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678691427224" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1678688625094">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678688625094" />
     <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1677034516688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -482,10 +465,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1675663603316" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1678676897525">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1678694796127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678676897525" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678694796127" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1676533691969" />
   </component>
   <component name="XDebuggerManager">
@@ -515,11 +498,6 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/activitys/BdAiActivity.java</url>
           <line>150</line>
           <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/activitys/AutoClickActivity.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/ydh/intelligence/dialogs/EditeDialog.java</url>

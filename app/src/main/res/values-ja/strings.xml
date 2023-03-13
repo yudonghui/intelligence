@@ -53,5 +53,6 @@
 	<string name="brand_coupons">ブランド券</string>
 	<string name="other">その他</string>
 	<string name="no_data">データが一時的にありません</string>
+	<string name="add_small_widget">ウィジェットの追加</string>
 
 </resources>

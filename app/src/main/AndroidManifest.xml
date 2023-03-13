@@ -68,7 +68,9 @@
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-7520425448678486~9398465955" />
 
-        <receiver android:name=".NewAppWidget">
+        <receiver
+            android:name=".NewAppWidget"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -80,6 +82,7 @@
 
         <service
             android:name=".services.FloatingService"
+            android:exported="false"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
             <intent-filter>
                 <action android:name="android.accessibilityservice.AccessibilityService" />
@@ -91,6 +94,7 @@
         </service>
         <service
             android:name=".services.ScrollService"
+            android:exported="false"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
             <intent-filter>
                 <action android:name="android.accessibilityservice.AccessibilityService" />

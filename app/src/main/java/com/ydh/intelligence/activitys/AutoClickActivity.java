@@ -18,6 +18,8 @@ import androidx.annotation.Nullable;
 import com.ydh.intelligence.R;
 import com.ydh.intelligence.SPUtils;
 import com.ydh.intelligence.dialogs.EditeDialog;
+import com.ydh.intelligence.dialogs.HisDialog;
+import com.ydh.intelligence.interfaces.HisDialogInterface;
 import com.ydh.intelligence.services.FloatingService;
 import com.ydh.intelligence.services.ScrollService;
 import com.ydh.intelligence.utils.ClipboardUtils;
@@ -41,10 +43,23 @@ public class AutoClickActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_auto_click);
         unBind = ButterKnife.bind(this);
-        checkPermission();
-        startActivityForResult(new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS), 111);
+        if (!checkPermission()){
+            startActivityForResult(
+                    new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                            Uri.parse("package:" + getPackageName())), 0);
+        }
+        new HisDialog.Builder().title(getString(R.string.tips))
+                .message(getString(R.string.dialog_message))
+                .rightBtn(getString(R.string.setting), new HisDialogInterface() {
+                    @Override
+                    public void callBack(View view) {
+                        startActivityForResult(new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS), 111);
+                    }
+                })
+                .build(mContext, 1).show();
         initListener();
     }
+
     private void initListener() {
         if (SPUtils.getCacheInt(SPUtils.FILE_USER, SPUtils.ORIENTATION) == 0) {
             mRgScroll.check(R.id.rb_up_down);
@@ -80,9 +95,6 @@ public class AutoClickActivity extends BaseActivity {
     public boolean checkPermission() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M
                 && !Settings.canDrawOverlays(this)) {
-            startActivityForResult(
-                    new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
-                            Uri.parse("package:" + getPackageName())), 0);
             return false;
         }
         return true;

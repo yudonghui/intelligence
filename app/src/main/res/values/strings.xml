@@ -56,6 +56,8 @@
     <string name="other">其他</string>
     <string name="no_data">暂无数据</string>
     <string name="add_small_widget">添加小组件</string>
+    <string name="dialog_message">自动化操作手机屏幕需要打开无障碍模式</string>
+    <string name="dialog_allow_not">是否允许在其他应用上面显示悬浮窗</string>
 
 
 </resources>

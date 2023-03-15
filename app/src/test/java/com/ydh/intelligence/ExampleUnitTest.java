@@ -1,5 +1,10 @@
 package com.ydh.intelligence;
 
+import com.ydh.intelligence.aop.AnnotationAnalysis;
+import com.ydh.intelligence.aop.ApiToken;
+import com.ydh.intelligence.aop.UserInfo;
+import com.ydh.intelligence.utils.LogUtils;
+
 import org.junit.Test;
 
 import java.io.UnsupportedEncodingException;
@@ -14,8 +19,11 @@ import java.util.Base64;
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
 public class ExampleUnitTest {
+
     @Test
     public void addition_isCorrect() throws UnsupportedEncodingException {
+
+
         String string = "0987654321yudonghui";
         String md5 = md5(string);
         System.out.println("md5加密后: " + md5);
@@ -32,6 +40,8 @@ public class ExampleUnitTest {
         System.out.println(new String(decoder.decode(encodedText), "UTF-8").substring(2));
 
     }
+
+
 
     /**
      * 使用md5的算法进行加密

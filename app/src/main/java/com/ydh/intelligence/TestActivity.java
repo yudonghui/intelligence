@@ -19,6 +19,9 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.ydh.intelligence.activitys.BaseActivity;
 import com.ydh.intelligence.activitys.WebWiewActivity;
+import com.ydh.intelligence.aop.AnnotationAnalysis;
+import com.ydh.intelligence.aop.ApiToken;
+import com.ydh.intelligence.aop.UserInfo;
 import com.ydh.intelligence.common.Constant;
 import com.ydh.intelligence.common.bases.ErrorEntity;
 import com.ydh.intelligence.entitys.JdBaseEntity;
@@ -31,6 +34,7 @@ import com.ydh.intelligence.utils.ClipboardUtils;
 import com.ydh.intelligence.utils.CommonUtil;
 import com.ydh.intelligence.utils.DateFormtUtils;
 import com.ydh.intelligence.utils.HttpMd5;
+import com.ydh.intelligence.utils.LogUtils;
 import com.ydh.intelligence.utils.MsgCode;
 
 import org.json.JSONObject;
@@ -55,6 +59,8 @@ public class TestActivity extends BaseActivity {
     @BindView(R.id.webView)
     WebView webView;
     private MaterialEntity materialEntity;
+    @ApiToken
+    UserInfo userInfo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +68,13 @@ public class TestActivity extends BaseActivity {
         setContentView(R.layout.activity_test);
         unBind = ButterKnife.bind(this);
         materialEntity = (MaterialEntity) getIntent().getSerializableExtra("materialEntity");
+
+
+        AnnotationAnalysis.bind(this);
+        userInfo.setSex("名称是美莱");
+        LogUtils.e("用户信息：" + userInfo.toString());
+
+
         // 开启javascript 渲染
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient() {

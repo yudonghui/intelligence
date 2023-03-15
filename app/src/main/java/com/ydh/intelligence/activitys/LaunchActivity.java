@@ -67,7 +67,7 @@ public class LaunchActivity extends BaseActivity {
         homeEntities.add(new HomeEntity(R.drawable.shape_theme_10, getString(R.string.home_coupons), 6));
         homeEntities.add(new HomeEntity(R.drawable.shape_orange_10, getString(R.string.home_picture_text), 7));
         homeEntities.add(new HomeEntity(R.drawable.shape_red_10, getString(R.string.home_mpac), 8));
-        //homeEntities.add(new HomeEntity(R.drawable.shape_gray_10, getString(R.string.home_tool), 100));
+        homeEntities.add(new HomeEntity(R.drawable.shape_gray_10, getString(R.string.home_tool), 100));
         CommonAdapter<HomeEntity> mAdapter = new CommonAdapter<HomeEntity>(mContext, R.layout.item_main, homeEntities) {
 
             @Override
